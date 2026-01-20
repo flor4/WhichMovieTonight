@@ -1,0 +1,169 @@
+# Node.js
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+pnpm-debug.log
+
+# Build output
+dist/
+build/
+.tmp/
+.temp/
+.cache/
+.next/
+out/
+coverage/
+
+# System files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*.bak
+*.tmp
+
+# Logs
+logs/
+*.log
+
+# Environment files
+.env
+.env.*
+
+# IDEs
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# OS
+*.DS_Store
+*.AppleDouble
+.LSOverride
+Icon?
+._*
+.Spotlight-V100
+.Trashes
+
+# Misc
+*.tgz
+*.gz
+*.zip
+*.tar
+*.rar
+*.7z
+*.lock
+
+# Test
+jest-coverage/
+
+# TypeScript
+*.tsbuildinfo
+
+# SASS
+.sass-cache/
+
+# Binaries
+*.exe
+*.dll
+*.so
+*.dylib
+*.bin
+
+# Images
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.svg
+*.ico
+
+# Mac
+.AppleDouble
+.LSOverride
+
+# Linux
+*~
+
+# Windows
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Others
+*.log.*
+*.pid
+*.seed
+*.pid.lock
+
+# Local env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Next.js
+.next/
+
+# Nuxt.js
+.nuxt/
+
+# Vue
+/dist/
+/node_modules/
+
+# React Native
+.expo/
+
+# Expo
+.expo/
+web-build/
+
+# Svelte
+.svelte-kit/
+
+# Storybook
+out/
+.storybook-out/
+
+# Firebase
+.firebase/
+.firebaserc
+
+# Docker
+.docker/
+Dockerfile*
+.dockerignore
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Yarn
+.yarn/
+.pnp.*
+
+# ESLint
+.eslintcache
+
+# Prettier
+.prettierignore
+
+# Parcel
+.cache/
+.parcel-cache/
+
+# VSCode
+.history/
+
+# JetBrains
+.idea/
+
+# Mac
+*.DS_Store
+
+# Windows
+Thumbs.db
+
+# End of file
