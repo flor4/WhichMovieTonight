@@ -1,0 +1,158 @@
+# Python
+*.py[cod]
+*$py.class
+*.so
+__pycache__/
+*.egg
+*.egg-info/
+dist/
+build/
+*.whl
+.Python
+
+# Django
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+media/
+staticfiles/
+static_root/
+
+# Environment
+.env
+.env.*
+.venv
+venv/
+ENV/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+*.swp
+*.swo
+*~
+
+# System files
+.DS_Store
+Thumbs.db
+*.bak
+*.tmp
+
+# Database
+*.sqlite3
+*.db
+
+# Migrations (optionnel - décommentez si vous ne voulez pas tracker les migrations)
+# */migrations/*.py
+# !*/migrations/__init__.py
+
+# Coverage reports
+htmlcov/
+.coverage
+.coverage.*
+.pytest_cache/
+nosetests.xml
+coverage.xml
+*.cover
+
+# Translations
+*.mo
+*.pot
+
+# Celery
+celerybeat-schedule
+celerybeat.pid
+
+# PyCharm
+.idea/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+._*
+
+# Windows
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+*~
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Next.js
+.next/
+
+# Nuxt.js
+.nuxt/
+
+# Vue
+/dist/
+/node_modules/
+
+# React Native
+.expo/
+
+# Expo
+.expo/
+web-build/
+
+# Svelte
+.svelte-kit/
+
+# Storybook
+out/
+.storybook-out/
+
+# Firebase
+.firebase/
+.firebaserc
+
+# Docker
+.docker/
+Dockerfile*
+.dockerignore
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Yarn
+.yarn/
+.pnp.*
+
+# ESLint
+.eslintcache
+
+# Prettier
+.prettierignore
+
+# Parcel
+.cache/
+.parcel-cache/
+
+# VSCode
+.history/
+
+# JetBrains
+.idea/
+
+# Mac
+*.DS_Store
+
+# Windows
+Thumbs.db
+
+guide.md
+.copilot-instructions.md
+
+# End of file
