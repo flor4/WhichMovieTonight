@@ -40,9 +40,11 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'rest_framework',
     'rest_framework_simplejwt',
+    'rest_framework_simplejwt.token_blacklist'
+    ,
     'corsheaders',
     'apps.movies',
-    'apps.reviews',
+    'apps.ratings',
     'apps.comments',
     'apps.authentication',
 ]
@@ -85,12 +87,11 @@ WSGI_APPLICATION = 'whichmovietonight.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': os.environ.get('BD_NAME', 'whichmovietonight'),
+        'NAME': os.environ.get('DB_NAME', 'whichmovietonight'),
         'USER': os.environ.get('DB_USER', 'postgres'),
         'PASSWORD': os.environ.get('DB_PASSWORD', 'postgres'),
         'HOST': os.environ.get('DB_HOST', 'localhost'),
         'PORT': os.environ.get('DB_PORT', '5432'),
-
     }
 }
 
