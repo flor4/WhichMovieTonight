@@ -79,4 +79,10 @@ export const movieAPI = {
         const response = await api.post('/movies/', movieData);
         return response.data;
     },
+
+    // Update movie (admin only)
+    updateMovie: async (id, movieData) => {
+        const response = await api.put(`/movies/${id}/`, movieData);
+        return response.data;
+    },
 }
