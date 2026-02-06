@@ -85,4 +85,10 @@ export const movieAPI = {
         const response = await api.put(`/movies/${id}/`, movieData);
         return response.data;
     },
+
+    // Delete movie (admin only)
+    deleteMovie: async (id) => {
+        const response = await api.delete(`/movies/${id}/`);
+        return response.data;
+    },
 }
