@@ -105,4 +105,10 @@ export const ratingAPI = {
         const response = await api.post('/ratings/', { movie: movieID, score });
         return response.data;
     },
-}
+
+    // Delete rating for a movie (authenticated)
+    deleteRating: async (ratingID) => {
+        const response = await api.delete(`/ratings/${ratingID}/`);
+        return response.data;
+    },
+};
