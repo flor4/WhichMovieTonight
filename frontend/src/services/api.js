@@ -112,3 +112,31 @@ export const ratingAPI = {
         return response.data;
     },
 };
+
+export const commentAPI = {
+    // Get  comments for a movie
+    getComments: async (movieID) => {
+        const response = await api.get('/comments/', { params: { movie_id: movieID } });
+        return response.data;
+    },
+
+    // Create comment for a movie (authenticated)
+    createComment: async (movieID, text) => {
+        const response = await api.post('/comments/', { movie: movieID, text });
+        return response.data;
+    },
+
+    // Update comment for a movie (authenticated)
+    updateComment: async (commentID, text) => {
+        const response = await api.put(`/comments/${commentID}/`, { text });
+        return response.data;
+    },
+
+    // Delete comment for a movie (authenticated)
+    deleteComment: async (commentID) => {
+        const response = await api.delete(`/comments/${commentID}/`);
+        return response.data;
+    },
+};
+
+export default api;
