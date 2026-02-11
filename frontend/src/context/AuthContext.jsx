@@ -78,4 +78,31 @@ export const AuthProvider = ({ children }) => {
         }
     };
 
+    // Check if user is admin
+    const isAdmin = () => {
+        return user?.is_staff === true;
+    };
+
+    // Check is user is authenticated
+    const value = {
+        user,
+        loading,
+        login,
+        register,
+        logout,
+        isAdmin,
+        isAuthenticated: !!user,
+    };
+
+    // Provide the auth context to child components
+    return <AuthContext.Provider value={value}>{children}</AuthContext.Provider>;
+};
+
+// Custom hook to user the AuthContext
+export const useAuth = () => {
+    const context = useContext(AuthContext);
+    if (!context) {
+        throw new Error('useAuth must be used within an AuthProvider');
+    }
+    return context;
 };
