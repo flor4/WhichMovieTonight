@@ -43,10 +43,10 @@ INSTALLED_APPS = [
     'rest_framework_simplejwt.token_blacklist'
     ,
     'corsheaders',
-    'apps.movies',
-    'apps.ratings',
-    'apps.comments',
-    'apps.authentication',
+    'apps.movies.apps.MoviesConfig',
+    'apps.ratings.apps.RatingsConfig',
+    'apps.comments.apps.CommentsConfig',
+    'apps.authentication.apps.AuthenticationConfig',
 ]
 
 MIDDLEWARE = [
@@ -60,7 +60,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'whichmovietonight.urls'
+ROOT_URLCONF = 'config.urls'
 
 TEMPLATES = [
     {
@@ -78,7 +78,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'whichmovietonight.wsgi.application'
+WSGI_APPLICATION = 'config.wsgi.application'
 
 
 # Database
