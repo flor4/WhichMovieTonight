@@ -24,5 +24,36 @@ function StarRating({ value, onChange, readonly = false }) {
         setHoverValue(0)
     }
 
+    // Render the star rating component with 5 stars, applying appropriate styles based on the current value and hover state
+    return (
+        <div className="flex items-center gap-1">
+            {[1, 2, 3, 4, 5].map((rating) => (
+                <button
+                    key={rating}
+                    type="button"
+                    className={`text-3xl transition-colors ${
+                        readonly ? 'cursor-default' : 'cursor-pointer hover:scale-110'
+                    }`}
+                    onClick={() => handleClick(rating)}
+                    onMouseEnter={() => handleMouseEnter(rating)}
+                    onMouseLeave={handleMouseLeave}
+                    disabled={readonly}
+                    >
+                        <span
+                        className={
+                            rating <= (hoverValue || value)
+                            ? 'text-yellow-400'
+                            : 'text-gray-600'
+                        }
+                        >
+                            ★
+                        </span>
+                    </button>
+
+            ))}
+        </div>
+    )
+
 }
-    
+
+export default StarRating;
