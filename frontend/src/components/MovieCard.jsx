@@ -1,5 +1,6 @@
 import { Link } from "reacr-router-dome";
 
+{/* component of movie card with poster, title, genre, year and average rating display */}
 function MovieCard({ movie }) {
     return (
         <Link to={`/movie/${movie.id}`}>
@@ -21,6 +22,17 @@ function MovieCard({ movie }) {
                         <span className="text-gray-400 text-xs">({movie.rating_count})</span>
                     </div>
                 )}
+
+                {/* Title overlay - visible on hover */}
+                <div className="absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                    <div className="absolute bottom-0 left-0 right-0 p-4">
+                        <h3 className="text-white text-xl font-bold mb-2">{movie.title}</h3>
+                        <div className="flex items-center justify-between">
+                            <span className="text-sm text-gray-300">{movie.genre}</span>
+                            <span className="text-sm text-gray-300">{new Date(movie.release_date).getFullYear()}</span>
+                        </div>
+                    </div>
+                </div>
             </div>
         </Link>
     )
