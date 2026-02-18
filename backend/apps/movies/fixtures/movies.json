@@ -1,0 +1,666 @@
+[
+  {
+    "model": "movies.movie",
+    "pk": 1,
+    "fields": {
+      "title": "Inception",
+      "synopsis": "A thief who steals corporate secrets through the use of dream-sharing technology is given the inverse task of planting an idea into the mind of a C.E.O., but his tragic past may doom the project and his team to disaster.",
+      "genre": "Sci-Fi, Action, Thriller",
+      "release_date": "2010-07-16",
+      "cast": "Leonardo DiCaprio, Joseph Gordon-Levitt, Elliot Page, Tom Hardy, Ken Watanabe, Cillian Murphy, Marion Cotillard",
+      "poster_url": "https://image.tmdb.org/t/p/w500/ljsZTbVsrQSqZgWeep2B1QiDKuh.jpg",
+      "backdrop_url": "https://image.tmdb.org/t/p/original/s3TBrRGB1iav7gFOCNx3H31MoES.jpg",
+      "trailer_url": "https://www.youtube.com/watch?v=YoHD9XEInc0",
+      "netflix_available": false,
+      "disney_plus_available": false,
+      "prime_video_available": true
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 2,
+    "fields": {
+      "title": "The Matrix",
+      "synopsis": "A computer hacker learns from mysterious rebels about the true nature of his reality and his role in the war against its controllers.",
+      "genre": "Sci-Fi, Action",
+      "release_date": "1999-03-31",
+      "cast": "Keanu Reeves, Laurence Fishburne, Carrie-Anne Moss, Hugo Weaving, Joe Pantoliano",
+      "poster_url": "https://image.tmdb.org/t/p/w500/f89U3ADr1oiB1s9GkdPOEpXUk5H.jpg",
+      "backdrop_url": "https://image.tmdb.org/t/p/original/icmmSD4vTTDKOq2vvdulafOGw93.jpg",
+      "trailer_url": "https://www.youtube.com/watch?v=vKQi3bBA1y8",
+      "netflix_available": false,
+      "disney_plus_available": false,
+      "prime_video_available": true
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 3,
+    "fields": {
+      "title": "Interstellar",
+      "synopsis": "A team of explorers travel through a wormhole in space in an attempt to ensure humanity's survival.",
+      "genre": "Sci-Fi, Drama, Adventure",
+      "release_date": "2014-11-07",
+      "cast": "Matthew McConaughey, Anne Hathaway, Jessica Chastain, Michael Caine, Matt Damon",
+      "poster_url": "https://image.tmdb.org/t/p/w500/gEU2QniE6E77NI6lCU6MxlNBvIx.jpg",
+      "backdrop_url": "https://image.tmdb.org/t/p/original/rAiYTfKGqDCRIIqo664sY9XZIvQ.jpg",
+      "trailer_url": "https://www.youtube.com/watch?v=zSWdZVtXT7E",
+      "netflix_available": false,
+      "disney_plus_available": false,
+      "prime_video_available": true
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 4,
+    "fields": {
+      "title": "The Dark Knight",
+      "synopsis": "When the menace known as the Joker wreaks havoc and chaos on the people of Gotham, Batman must accept one of the greatest psychological and physical tests of his ability to fight injustice.",
+      "genre": "Action, Crime, Drama",
+      "release_date": "2008-07-18",
+      "cast": "Christian Bale, Heath Ledger, Aaron Eckhart, Michael Caine, Gary Oldman, Morgan Freeman",
+      "poster_url": "https://image.tmdb.org/t/p/w500/qJ2tW6WMUDux911r6m7haRef0WH.jpg",
+      "backdrop_url": "https://image.tmdb.org/t/p/original/hkBaDkMWbLaf8B1lsWsKX7Ew3Xq.jpg",
+      "trailer_url": "https://www.youtube.com/watch?v=EXeTwQWrcwY",
+      "netflix_available": true,
+      "disney_plus_available": false,
+      "prime_video_available": false
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 5,
+    "fields": {
+      "title": "Pulp Fiction",
+      "synopsis": "The lives of two mob hitmen, a boxer, a gangster and his wife, and a pair of diner bandits intertwine in four tales of violence and redemption.",
+      "genre": "Crime, Drama",
+      "release_date": "1994-10-14",
+      "cast": "John Travolta, Uma Thurman, Samuel L. Jackson, Bruce Willis, Ving Rhames, Harvey Keitel",
+      "poster_url": "https://image.tmdb.org/t/p/w500/d5iIlFn5s0ImszYzBPb8JPIfbXD.jpg",
+      "backdrop_url": "https://image.tmdb.org/t/p/original/suaEOtk1N1sgg2MTM7oZd2cfVp3.jpg",
+      "trailer_url": "https://www.youtube.com/watch?v=s7EdQ4FqbhY",
+      "netflix_available": true,
+      "disney_plus_available": false,
+      "prime_video_available": false
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 6,
+    "fields": {
+      "title": "The Shawshank Redemption",
+      "synopsis": "Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency.",
+      "genre": "Drama",
+      "release_date": "1994-09-23",
+      "cast": "Tim Robbins, Morgan Freeman, Bob Gunton, William Sadler, Clancy Brown",
+      "poster_url": "https://image.tmdb.org/t/p/w500/q6y0Go1tsGEsmtFryDOJo3dEmqu.jpg",
+      "backdrop_url": "https://image.tmdb.org/t/p/original/kXfqcdQKsToO0OUXHcrrNCHDBzO.jpg",
+      "trailer_url": "https://www.youtube.com/watch?v=6hB3S9bIaco",
+      "netflix_available": false,
+      "disney_plus_available": false,
+      "prime_video_available": true
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 7,
+    "fields": {
+      "title": "Forrest Gump",
+      "synopsis": "The presidencies of Kennedy and Johnson, the Vietnam War, and other historical events unfold from the perspective of an Alabama man with an IQ of 75.",
+      "genre": "Drama, Romance",
+      "release_date": "1994-07-06",
+      "cast": "Tom Hanks, Robin Wright, Gary Sinise, Sally Field, Mykelti Williamson",
+      "poster_url": "https://image.tmdb.org/t/p/w500/arw2vcBveWOVZr6pxd9XTd1TdQa.jpg",
+      "backdrop_url": "https://image.tmdb.org/t/p/original/3h1JZGDhZ8nzxdgvkxha0qBqi05.jpg",
+      "trailer_url": "https://www.youtube.com/watch?v=bLvqoHBptjg",
+      "netflix_available": false,
+      "disney_plus_available": false,
+      "prime_video_available": true
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 8,
+    "fields": {
+      "title": "Fight Club",
+      "synopsis": "An insomniac office worker and a devil-may-care soapmaker form an underground fight club that evolves into something much more.",
+      "genre": "Drama, Thriller",
+      "release_date": "1999-10-15",
+      "cast": "Brad Pitt, Edward Norton, Helena Bonham Carter, Meat Loaf, Jared Leto",
+      "poster_url": "https://image.tmdb.org/t/p/w500/pB8BM7pdSp6B6Ih7QZ4DrQ3PmJK.jpg",
+      "backdrop_url": "https://image.tmdb.org/t/p/original/hZkgoQYus5vegHoetLkCJzb17zJ.jpg",
+      "trailer_url": "https://www.youtube.com/watch?v=qtRKdVHc-cE",
+      "netflix_available": false,
+      "disney_plus_available": false,
+      "prime_video_available": true
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 9,
+    "fields": {
+      "title": "Goodfellas",
+      "synopsis": "The story of Henry Hill and his life in the mob, covering his relationship with his wife Karen Hill and his mob partners Jimmy Conway and Tommy DeVito.",
+      "genre": "Crime, Drama",
+      "release_date": "1990-09-19",
+      "cast": "Robert De Niro, Ray Liotta, Joe Pesci, Lorraine Bracco, Paul Sorvino",
+      "poster_url": "https://image.tmdb.org/t/p/w500/aKuFiU82s5ISJpGZp7YkIr3kCUd.jpg",
+      "backdrop_url": "https://image.tmdb.org/t/p/original/sw7mordbZxgITU877yTpZCud90M.jpg",
+      "trailer_url": "https://www.youtube.com/watch?v=qo5jJpHtI1Y",
+      "netflix_available": false,
+      "disney_plus_available": false,
+      "prime_video_available": true
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 10,
+    "fields": {
+      "title": "The Lord of the Rings: The Return of the King",
+      "synopsis": "Gandalf and Aragorn lead the World of Men against Sauron's army to draw his gaze from Frodo and Sam as they approach Mount Doom with the One Ring.",
+      "genre": "Adventure, Fantasy, Action",
+      "release_date": "2003-12-17",
+      "cast": "Elijah Wood, Viggo Mortensen, Ian McKellen, Orlando Bloom, Sean Astin, Andy Serkis",
+      "poster_url": "https://image.tmdb.org/t/p/w500/rCzpDGLbOoPwLjy3OAm5NUPOTrC.jpg",
+      "backdrop_url": "https://image.tmdb.org/t/p/original/2u7zbn8EudG6kLlBzUYqP8RyFU4.jpg",
+      "trailer_url": "https://www.youtube.com/watch?v=r7X9W2ybzqk",
+      "netflix_available": false,
+      "disney_plus_available": false,
+      "prime_video_available": true
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 11,
+    "fields": {
+      "title": "The Godfather",
+      "synopsis": "The aging patriarch of an organized crime dynasty transfers control of his clandestine empire to his reluctant son.",
+      "genre": "Crime, Drama",
+      "release_date": "1972-03-24",
+      "cast": "Marlon Brando, Al Pacino, James Caan, Diane Keaton, Robert Duvall",
+      "poster_url": "https://image.tmdb.org/t/p/w500/3bhkrj58Vtu7enYsRolD1fZdja1.jpg",
+      "backdrop_url": "https://image.tmdb.org/t/p/original/tmU7GeKVybMWFButWEGl2M4GeiP.jpg",
+      "trailer_url": "https://www.youtube.com/watch?v=sY1S34973zA",
+      "netflix_available": false,
+      "disney_plus_available": false,
+      "prime_video_available": true
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 12,
+    "fields": {
+      "title": "Schindler's List",
+      "synopsis": "In German-occupied Poland during World War II, industrialist Oskar Schindler gradually becomes concerned for his Jewish workforce after witnessing their persecution by the Nazis.",
+      "genre": "Drama, History, War",
+      "release_date": "1993-12-15",
+      "cast": "Liam Neeson, Ralph Fiennes, Ben Kingsley, Caroline Goodall, Embeth Davidtz",
+      "poster_url": "https://image.tmdb.org/t/p/w500/sF1U4EUQS8YHUYjNl3pMGNIQyr0.jpg",
+      "backdrop_url": "https://image.tmdb.org/t/p/original/loRmRzQXZeqG78TqZuyvSlEQfZb.jpg",
+      "trailer_url": "https://www.youtube.com/watch?v=gG22XNhtnoY",
+      "netflix_available": false,
+      "disney_plus_available": false,
+      "prime_video_available": false
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 13,
+    "fields": {
+      "title": "The Silence of the Lambs",
+      "synopsis": "A young FBI cadet must receive the help of an incarcerated and manipulative cannibal killer to help catch another serial killer.",
+      "genre": "Crime, Drama, Thriller",
+      "release_date": "1991-02-14",
+      "cast": "Jodie Foster, Anthony Hopkins, Scott Glenn, Ted Levine, Anthony Heald",
+      "poster_url": "https://image.tmdb.org/t/p/w500/uS9m8OBk1A8eM9I042bx8XXpqAq.jpg",
+      "backdrop_url": "https://image.tmdb.org/t/p/original/iMQAIbeL9bPgUBzYL5zLEqmnArk.jpg",
+      "trailer_url": "https://www.youtube.com/watch?v=W6Mm8Sbe__o",
+      "netflix_available": true,
+      "disney_plus_available": false,
+      "prime_video_available": false
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 14,
+    "fields": {
+      "title": "Gladiator",
+      "synopsis": "A former Roman General sets out to exact vengeance against the corrupt emperor who murdered his family and sent him into slavery.",
+      "genre": "Action, Drama, Adventure",
+      "release_date": "2000-05-05",
+      "cast": "Russell Crowe, Joaquin Phoenix, Connie Nielsen, Oliver Reed, Richard Harris",
+      "poster_url": "https://image.tmdb.org/t/p/w500/ty8TGRuvJLPUmAR1H1nRIsgwvim.jpg",
+      "backdrop_url": "https://image.tmdb.org/t/p/original/2oZklIzUbvZXXzIFzv7Hi68d6xf.jpg",
+      "trailer_url": "https://www.youtube.com/watch?v=owK1qxDselE",
+      "netflix_available": false,
+      "disney_plus_available": false,
+      "prime_video_available": true
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 15,
+    "fields": {
+      "title": "The Prestige",
+      "synopsis": "After a tragic accident, two stage magicians engage in a battle to create the ultimate illusion while sacrificing everything they have to outwit each other.",
+      "genre": "Drama, Mystery, Sci-Fi",
+      "release_date": "2006-10-20",
+      "cast": "Christian Bale, Hugh Jackman, Scarlett Johansson, Michael Caine, Rebecca Hall",
+      "poster_url": "https://image.tmdb.org/t/p/w500/tRNlZbgNCNOpLpbPEz5L8G8A0JN.jpg",
+      "backdrop_url": "https://image.tmdb.org/t/p/original/fYr5lff9ghIK5RxQHx6We6RFlRQ.jpg",
+      "trailer_url": "https://www.youtube.com/watch?v=o4gHCmTQDVI",
+      "netflix_available": false,
+      "disney_plus_available": false,
+      "prime_video_available": true
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 16,
+    "fields": {
+      "title": "Parasite",
+      "synopsis": "Greed and class discrimination threaten the newly formed symbiotic relationship between the wealthy Park family and the destitute Kim clan.",
+      "genre": "Comedy, Thriller, Drama",
+      "release_date": "2019-05-30",
+      "cast": "Song Kang-ho, Lee Sun-kyun, Cho Yeo-jeong, Choi Woo-shik, Park So-dam",
+      "poster_url": "https://image.tmdb.org/t/p/w500/7IiTTgloJzvGI1TAYymCfbfl3vT.jpg",
+      "backdrop_url": "https://image.tmdb.org/t/p/original/TU9NIjwzjoKPwQHoHshkFcQUCG.jpg",
+      "trailer_url": "https://www.youtube.com/watch?v=5xH0HfJHsaY",
+      "netflix_available": true,
+      "disney_plus_available": false,
+      "prime_video_available": false
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 17,
+    "fields": {
+      "title": "The Green Mile",
+      "synopsis": "The lives of guards on Death Row are affected by one of their charges: a black man accused of child murder and rape, yet who has a mysterious gift.",
+      "genre": "Drama, Crime, Fantasy",
+      "release_date": "1999-12-10",
+      "cast": "Tom Hanks, Michael Clarke Duncan, David Morse, Bonnie Hunt, James Cromwell",
+      "poster_url": "https://image.tmdb.org/t/p/w500/velWPhVMQeQKcxggNEU8YmIo52R.jpg",
+      "backdrop_url": "https://image.tmdb.org/t/p/original/l6hQWH9eDksNJNiXWYRkWqikOdu.jpg",
+      "trailer_url": "https://www.youtube.com/watch?v=Ki4haFrqSrw",
+      "netflix_available": false,
+      "disney_plus_available": false,
+      "prime_video_available": true
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 18,
+    "fields": {
+      "title": "Saving Private Ryan",
+      "synopsis": "Following the Normandy Landings, a group of U.S. soldiers go behind enemy lines to retrieve a paratrooper whose brothers have been killed in action.",
+      "genre": "Drama, War, History",
+      "release_date": "1998-07-24",
+      "cast": "Tom Hanks, Matt Damon, Tom Sizemore, Edward Burns, Barry Pepper",
+      "poster_url": "https://image.tmdb.org/t/p/original/l4Ala9HQZmyKVO63cfClY9fECdc.jpg",
+      "backdrop_url": "https://image.tmdb.org/t/p/original/rW2xRFlJRbTnBJlQTSjQmjevIwb.jpg",
+      "trailer_url": "https://www.youtube.com/watch?v=9CiW_DgxCnQ",
+      "netflix_available": false,
+      "disney_plus_available": false,
+      "prime_video_available": true
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 19,
+    "fields": {
+      "title": "The Departed",
+      "synopsis": "An undercover cop and a mole in the police attempt to identify each other while infiltrating an Irish gang in South Boston.",
+      "genre": "Crime, Drama, Thriller",
+      "release_date": "2006-10-06",
+      "cast": "Leonardo DiCaprio, Matt Damon, Jack Nicholson, Mark Wahlberg, Martin Sheen",
+      "poster_url": "https://image.tmdb.org/t/p/w500/nT97ifVT2J1yMQmeq20Qblg61T.jpg",
+      "backdrop_url": "https://image.tmdb.org/t/p/original/6WRrGYalXXveItfpnipYdayFkQB.jpg",
+      "trailer_url": "https://www.youtube.com/watch?v=SGWvwjZ0eDc",
+      "netflix_available": false,
+      "disney_plus_available": false,
+      "prime_video_available": true
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 20,
+    "fields": {
+      "title": "Whiplash",
+      "synopsis": "A promising young drummer enrolls at a cut-throat music conservatory where his dreams of greatness are mentored by an instructor who will stop at nothing to realize a student's potential.",
+      "genre": "Drama, Music",
+      "release_date": "2014-10-10",
+      "cast": "Miles Teller, J.K. Simmons, Melissa Benoist, Paul Reiser, Austin Stowell",
+      "poster_url": "https://image.tmdb.org/t/p/w500/7fn624j5lj3xTme2SgiLCeuedmO.jpg",
+      "backdrop_url": "https://image.tmdb.org/t/p/original/fRGxZuo7jJUWQsVg9PREb98Aclp.jpg",
+      "trailer_url": "https://www.youtube.com/watch?v=7d_jQycdQGo",
+      "netflix_available": true,
+      "disney_plus_available": false,
+      "prime_video_available": false
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 21,
+    "fields": {
+      "title": "Kill Bill: Vol. 1",
+      "synopsis": "A former assassin seeks revenge against her former allies who betrayed her.",
+      "genre": "Action, Crime",
+      "release_date": "2003-10-10",
+      "cast": "Uma Thurman, Lucy Liu, Vivica A. Fox",
+      "poster_url": "https://image.tmdb.org/t/p/w500/v7TaX8kXMXs5yFFGR41guUDNcnB.jpg",
+      "backdrop_url": "https://image.tmdb.org/t/p/original/5Y5Y0k7f3w8R6YH8Q4k2Fv7n.jpg",
+      "trailer_url": "https://www.youtube.com/watch?v=7kSuas6mRpk",
+      "netflix_available": false,
+      "disney_plus_available": false,
+      "prime_video_available": true
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 22,
+    "fields": {
+      "title": "Fargo",
+      "synopsis": "A car salesman's desperate scheme leads to murder and chaos in snowy Minnesota.",
+      "genre": "Crime, Thriller",
+      "release_date": "1996-04-05",
+      "cast": "Frances McDormand, William H. Macy, Steve Buscemi",
+      "poster_url": "https://image.tmdb.org/t/p/w500/rt7cpEr1uP6RTZykBFhBTcRaKvG.jpg",
+      "backdrop_url": "https://image.tmdb.org/t/p/original/6rFJ0b7LrF8aL3q.jpg",
+      "trailer_url": "https://www.youtube.com/watch?v=h2tY82z3xXU",
+      "netflix_available": true,
+      "disney_plus_available": false,
+      "prime_video_available": true
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 23,
+    "fields": {
+      "title": "No Country for Old Men",
+      "synopsis": "Violence and fate collide after a hunter stumbles upon a drug deal gone wrong.",
+      "genre": "Crime, Drama, Thriller",
+      "release_date": "2007-11-09",
+      "cast": "Javier Bardem, Josh Brolin, Tommy Lee Jones",
+      "poster_url": "https://image.tmdb.org/t/p/w500/6d5XOczc226jECq0LIX0siKtgHR.jpg",
+      "backdrop_url": "https://image.tmdb.org/t/p/original/jLh0gW9y2y6Q.jpg",
+      "trailer_url": "https://www.youtube.com/watch?v=38A__WT3-o0",
+      "netflix_available": true,
+      "disney_plus_available": false,
+      "prime_video_available": false
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 24,
+    "fields": {
+      "title": "Psycho",
+      "synopsis": "A secretary steals money and ends up at a secluded motel run by a disturbed man.",
+      "genre": "Horror, Thriller",
+      "release_date": "1960-06-16",
+      "cast": "Anthony Perkins, Janet Leigh",
+      "poster_url": "https://image.tmdb.org/t/p/w500/5j9VFEV2D8V0r0k.jpg",
+      "backdrop_url": "https://image.tmdb.org/t/p/original/9c5QH.jpg",
+      "trailer_url": "https://www.youtube.com/watch?v=NG3-GlvKPcg",
+      "netflix_available": false,
+      "disney_plus_available": false,
+      "prime_video_available": true
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 25,
+    "fields": {
+      "title": "Vertigo",
+      "synopsis": "A detective becomes obsessed with a mysterious woman he is hired to follow.",
+      "genre": "Mystery, Romance, Thriller",
+      "release_date": "1958-05-09",
+      "cast": "James Stewart, Kim Novak",
+      "poster_url": "https://image.tmdb.org/t/p/w500/15uOEfqBNTVtDUT7hGBVCka0rZz.jpg",
+      "backdrop_url": "https://image.tmdb.org/t/p/original/3J0M.jpg",
+      "trailer_url": "https://www.youtube.com/watch?v=Z5jvQwwHQNY",
+      "netflix_available": false,
+      "disney_plus_available": true,
+      "prime_video_available": false
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 26,
+    "fields": {
+      "title": "North by Northwest",
+      "synopsis": "A man is mistaken for a government agent and drawn into a deadly chase.",
+      "genre": "Thriller, Adventure",
+      "release_date": "1959-07-08",
+      "cast": "Cary Grant, Eva Marie Saint",
+      "poster_url": "https://image.tmdb.org/t/p/w500/lxM6kqilAdpdhqUl2BIJ.jpg",
+      "backdrop_url": "https://image.tmdb.org/t/p/original/2O0b.jpg",
+      "trailer_url": "https://www.youtube.com/watch?v=9JgM8xNnC5Q",
+      "netflix_available": false,
+      "disney_plus_available": true,
+      "prime_video_available": false
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 27,
+    "fields": {
+      "title": "Some Like It Hot",
+      "synopsis": "Two musicians disguise themselves as women to escape mobsters.",
+      "genre": "Comedy, Romance",
+      "release_date": "1959-03-19",
+      "cast": "Marilyn Monroe, Tony Curtis, Jack Lemmon",
+      "poster_url": "https://image.tmdb.org/t/p/w500/hVIKyTK13AvOGvR.jpg",
+      "backdrop_url": "https://image.tmdb.org/t/p/original/some_like_it_hot_bg.jpg",
+      "trailer_url": "https://www.youtube.com/watch?v=97TYs2YXbJw",
+      "netflix_available": false,
+      "disney_plus_available": false,
+      "prime_video_available": true
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 28,
+    "fields": {
+      "title": "The Seven Year Itch",
+      "synopsis": "A man's temptation grows when his wife leaves town and a blonde moves upstairs.",
+      "genre": "Comedy, Romance",
+      "release_date": "1955-06-03",
+      "cast": "Marilyn Monroe, Tom Ewell",
+      "poster_url": "https://image.tmdb.org/t/p/w500/7yearitch.jpg",
+      "backdrop_url": "https://image.tmdb.org/t/p/original/7yearitch_bg.jpg",
+      "trailer_url": "https://www.youtube.com/watch?v=3v9bp6pWn2I",
+      "netflix_available": false,
+      "disney_plus_available": false,
+      "prime_video_available": true
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 29,
+    "fields": {
+      "title": "Once Upon a Time in Hollywood",
+      "synopsis": "A faded TV actor and his stunt double navigate a changing Hollywood in 1969.",
+      "genre": "Drama, Comedy",
+      "release_date": "2019-07-26",
+      "cast": "Leonardo DiCaprio, Brad Pitt, Margot Robbie",
+      "poster_url": "https://image.tmdb.org/t/p/w500/8j58iEBw9pOXFD2L0nt0ZXeHviB.jpg",
+      "backdrop_url": "https://image.tmdb.org/t/p/original/qJeU7KM4nT2C.jpg",
+      "trailer_url": "https://www.youtube.com/watch?v=ELeMaP8EPAA",
+      "netflix_available": true,
+      "disney_plus_available": false,
+      "prime_video_available": false
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 30,
+    "fields": {
+      "title": "Reservoir Dogs",
+      "synopsis": "After a botched robbery, criminals begin to suspect that one of them is a police informant.",
+      "genre": "Crime, Thriller",
+      "release_date": "1992-10-23",
+      "cast": "Harvey Keitel, Tim Roth, Michael Madsen",
+      "poster_url": "https://image.tmdb.org/t/p/w500/xi8Iu6qyTfy.jpg",
+      "backdrop_url": "https://image.tmdb.org/t/p/original/reservoir_dogs_bg.jpg",
+      "trailer_url": "https://www.youtube.com/watch?v=vayksn4Y93A",
+      "netflix_available": false,
+      "disney_plus_available": false,
+      "prime_video_available": true
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 31,
+    "fields": {
+      "title": "The Big Lebowski",
+      "synopsis": "Jeff Lebowski gets mistaken for a millionaire of the same name and seeks restitution.",
+      "genre": "Comedy, Crime",
+      "release_date": "1998-03-06",
+      "cast": "Jeff Bridges, John Goodman, Julianne Moore",
+      "poster_url": "https://image.tmdb.org/t/p/w500/5DpmtMBXXNDujIuSlKW3WLKuqEd.jpg",
+      "backdrop_url": "https://image.tmdb.org/t/p/original/lebowski_bg.jpg",
+      "trailer_url": "https://www.youtube.com/watch?v=cd-go0oBF4Y",
+      "netflix_available": true,
+      "disney_plus_available": false,
+      "prime_video_available": true
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 32,
+    "fields": {
+      "title": "Burn After Reading",
+      "synopsis": "A disk containing CIA secrets ends up in the hands of two clueless gym employees.",
+      "genre": "Comedy, Crime",
+      "release_date": "2008-09-12",
+      "cast": "George Clooney, Frances McDormand, Brad Pitt",
+      "poster_url": "https://image.tmdb.org/t/p/w500/5E3n.jpg",
+      "backdrop_url": "https://image.tmdb.org/t/p/original/burn_after_reading_bg.jpg",
+      "trailer_url": "https://www.youtube.com/watch?v=SVCHSiRWjJM",
+      "netflix_available": true,
+      "disney_plus_available": false,
+      "prime_video_available": false
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 33,
+    "fields": {
+      "title": "Raising Arizona",
+      "synopsis": "A childless couple kidnaps a baby and chaos ensues.",
+      "genre": "Comedy, Crime",
+      "release_date": "1987-03-13",
+      "cast": "Nicolas Cage, Holly Hunter",
+      "poster_url": "https://image.tmdb.org/t/p/w500/ra_arizona.jpg",
+      "backdrop_url": "https://image.tmdb.org/t/p/original/raising_arizona_bg.jpg",
+      "trailer_url": "https://www.youtube.com/watch?v=OjWu8i6eMZo",
+      "netflix_available": false,
+      "disney_plus_available": false,
+      "prime_video_available": true
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 34,
+    "fields": {
+      "title": "The Birds",
+      "synopsis": "A coastal town is attacked by aggressive birds for unknown reasons.",
+      "genre": "Horror, Thriller",
+      "release_date": "1963-03-28",
+      "cast": "Tippi Hedren, Rod Taylor",
+      "poster_url": "https://image.tmdb.org/t/p/w500/the_birds.jpg",
+      "backdrop_url": "https://image.tmdb.org/t/p/original/the_birds_bg.jpg",
+      "trailer_url": "https://www.youtube.com/watch?v=0fJh2gIBOto",
+      "netflix_available": false,
+      "disney_plus_available": true,
+      "prime_video_available": false
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 35,
+    "fields": {
+      "title": "Rear Window",
+      "synopsis": "A wheelchair-bound photographer spies on his neighbors and suspects murder.",
+      "genre": "Mystery, Thriller",
+      "release_date": "1954-08-01",
+      "cast": "James Stewart, Grace Kelly",
+      "poster_url": "https://image.tmdb.org/t/p/w500/rear_window.jpg",
+      "backdrop_url": "https://image.tmdb.org/t/p/original/rear_window_bg.jpg",
+      "trailer_url": "https://www.youtube.com/watch?v=6kCcZCMYw38",
+      "netflix_available": false,
+      "disney_plus_available": true,
+      "prime_video_available": true
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 36,
+    "fields": {
+      "title": "Strangers on a Train",
+      "synopsis": "Two strangers agree to swap murders, but one takes the idea seriously.",
+      "genre": "Crime, Thriller",
+      "release_date": "1951-06-30",
+      "cast": "Farley Granger, Robert Walker",
+      "poster_url": "https://image.tmdb.org/t/p/w500/strangers_train.jpg",
+      "backdrop_url": "https://image.tmdb.org/t/p/original/strangers_train_bg.jpg",
+      "trailer_url": "https://www.youtube.com/watch?v=6K6D.jpg",
+      "netflix_available": false,
+      "disney_plus_available": true,
+      "prime_video_available": false
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 37,
+    "fields": {
+      "title": "Gentlemen Prefer Blondes",
+      "synopsis": "Two showgirls travel to Paris while navigating love and fortune.",
+      "genre": "Comedy, Musical, Romance",
+      "release_date": "1953-07-14",
+      "cast": "Marilyn Monroe, Jane Russell",
+      "poster_url": "https://image.tmdb.org/t/p/w500/gentlemen_blondes.jpg",
+      "backdrop_url": "https://image.tmdb.org/t/p/original/gentlemen_blondes_bg.jpg",
+      "trailer_url": "https://www.youtube.com/watch?v=U8r3.jpg",
+      "netflix_available": false,
+      "disney_plus_available": false,
+      "prime_video_available": true
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 38,
+    "fields": {
+      "title": "Niagara",
+      "synopsis": "A troubled marriage leads to betrayal and murder near Niagara Falls.",
+      "genre": "Thriller, Film-Noir",
+      "release_date": "1953-01-21",
+      "cast": "Marilyn Monroe, Joseph Cotten",
+      "poster_url": "https://image.tmdb.org/t/p/w500/niagara.jpg",
+      "backdrop_url": "https://image.tmdb.org/t/p/original/niagara_bg.jpg",
+      "trailer_url": "https://www.youtube.com/watch?v=niagara_trailer",
+      "netflix_available": false,
+      "disney_plus_available": false,
+      "prime_video_available": true
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 39,
+    "fields": {
+      "title": "Jackie Brown",
+      "synopsis": "A flight attendant becomes entangled in a dangerous money smuggling scheme.",
+      "genre": "Crime, Drama, Thriller",
+      "release_date": "1997-12-25",
+      "cast": "Pam Grier, Samuel L. Jackson, Robert Forster",
+      "poster_url": "https://image.tmdb.org/t/p/w500/jackie_brown.jpg",
+      "backdrop_url": "https://image.tmdb.org/t/p/original/jackie_brown_bg.jpg",
+      "trailer_url": "https://www.youtube.com/watch?v=jnf4r.jpg",
+      "netflix_available": true,
+      "disney_plus_available": false,
+      "prime_video_available": false
+    }
+  }
+]
+
