@@ -1,0 +1,382 @@
+[
+  {
+    "model": "movies.movie",
+    "pk": 1,
+    "fields": {
+      "title": "Inception",
+      "synopsis": "A thief who steals corporate secrets through the use of dream-sharing technology is given the inverse task of planting an idea into the mind of a C.E.O., but his tragic past may doom the project and his team to disaster.",
+      "genre": "Sci-Fi, Action, Thriller",
+      "release_date": "2010-07-16",
+      "cast": "Leonardo DiCaprio, Joseph Gordon-Levitt, Elliot Page, Tom Hardy, Ken Watanabe, Cillian Murphy, Marion Cotillard",
+      "poster_url": "https://image.tmdb.org/t/p/w500/ljsZTbVsrQSqZgWeep2B1QiDKuh.jpg",
+      "backdrop_url": "https://image.tmdb.org/t/p/original/s3TBrRGB1iav7gFOCNx3H31MoES.jpg",
+      "trailer_url": "https://www.youtube.com/watch?v=YoHD9XEInc0",
+      "created_at": "2024-01-01T12:00:00Z",
+      "updated_at": "2024-01-01T12:00:00Z",
+      "netflix_available": false,
+      "disney_plus_available": false,
+      "prime_video_available": true
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 2,
+    "fields": {
+      "title": "The Matrix",
+      "synopsis": "A computer hacker learns from mysterious rebels about the true nature of his reality and his role in the war against its controllers.",
+      "genre": "Sci-Fi, Action",
+      "release_date": "1999-03-31",
+      "cast": "Keanu Reeves, Laurence Fishburne, Carrie-Anne Moss, Hugo Weaving, Joe Pantoliano",
+      "poster_url": "https://image.tmdb.org/t/p/w500/f89U3ADr1oiB1s9GkdPOEpXUk5H.jpg",
+      "backdrop_url": "https://image.tmdb.org/t/p/original/icmmSD4vTTDKOq2vvdulafOGw93.jpg",
+      "trailer_url": "https://www.youtube.com/watch?v=vKQi3bBA1y8",
+      "created_at": "2024-01-01T12:00:00Z",
+      "updated_at": "2024-01-01T12:00:00Z",
+      "netflix_available": false,
+      "disney_plus_available": false,
+      "prime_video_available": true
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 3,
+    "fields": {
+      "title": "Interstellar",
+      "synopsis": "A team of explorers travel through a wormhole in space in an attempt to ensure humanity's survival.",
+      "genre": "Sci-Fi, Drama, Adventure",
+      "release_date": "2014-11-07",
+      "cast": "Matthew McConaughey, Anne Hathaway, Jessica Chastain, Michael Caine, Matt Damon",
+      "poster_url": "https://image.tmdb.org/t/p/w500/gEU2QniE6E77NI6lCU6MxlNBvIx.jpg",
+      "backdrop_url": "https://image.tmdb.org/t/p/original/rAiYTfKGqDCRIIqo664sY9XZIvQ.jpg",
+      "trailer_url": "https://www.youtube.com/watch?v=zSWdZVtXT7E",
+      "created_at": "2024-01-01T12:00:00Z",
+      "updated_at": "2024-01-01T12:00:00Z",
+      "netflix_available": false,
+      "disney_plus_available": false,
+      "prime_video_available": true
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 4,
+    "fields": {
+      "title": "The Dark Knight",
+      "synopsis": "When the menace known as the Joker wreaks havoc and chaos on the people of Gotham, Batman must accept one of the greatest psychological and physical tests of his ability to fight injustice.",
+      "genre": "Action, Crime, Drama",
+      "release_date": "2008-07-18",
+      "cast": "Christian Bale, Heath Ledger, Aaron Eckhart, Michael Caine, Gary Oldman, Morgan Freeman",
+      "poster_url": "https://image.tmdb.org/t/p/w500/qJ2tW6WMUDux911r6m7haRef0WH.jpg",
+      "backdrop_url": "https://image.tmdb.org/t/p/original/hkBaDkMWbLaf8B1lsWsKX7Ew3Xq.jpg",
+      "trailer_url": "https://www.youtube.com/watch?v=EXeTwQWrcwY",
+      "created_at": "2024-01-01T12:00:00Z",
+      "updated_at": "2024-01-01T12:00:00Z",
+      "netflix_available": true,
+      "disney_plus_available": false,
+      "prime_video_available": false
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 5,
+    "fields": {
+      "title": "Pulp Fiction",
+      "synopsis": "The lives of two mob hitmen, a boxer, a gangster and his wife, and a pair of diner bandits intertwine in four tales of violence and redemption.",
+      "genre": "Crime, Drama",
+      "release_date": "1994-10-14",
+      "cast": "John Travolta, Uma Thurman, Samuel L. Jackson, Bruce Willis, Ving Rhames, Harvey Keitel",
+      "poster_url": "https://image.tmdb.org/t/p/w500/d5iIlFn5s0ImszYzBPb8JPIfbXD.jpg",
+      "backdrop_url": "https://image.tmdb.org/t/p/original/suaEOtk1N1sgg2MTM7oZd2cfVp3.jpg",
+      "trailer_url": "https://www.youtube.com/watch?v=s7EdQ4FqbhY",
+      "created_at": "2024-01-01T12:00:00Z",
+      "updated_at": "2024-01-01T12:00:00Z",
+      "netflix_available": true,
+      "disney_plus_available": false,
+      "prime_video_available": false
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 6,
+    "fields": {
+      "title": "The Shawshank Redemption",
+      "synopsis": "Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency.",
+      "genre": "Drama",
+      "release_date": "1994-09-23",
+      "cast": "Tim Robbins, Morgan Freeman, Bob Gunton, William Sadler, Clancy Brown",
+      "poster_url": "https://image.tmdb.org/t/p/w500/q6y0Go1tsGEsmtFryDOJo3dEmqu.jpg",
+      "backdrop_url": "https://image.tmdb.org/t/p/original/kXfqcdQKsToO0OUXHcrrNCHDBzO.jpg",
+      "trailer_url": "https://www.youtube.com/watch?v=6hB3S9bIaco",
+      "created_at": "2024-01-01T12:00:00Z",
+      "updated_at": "2024-01-01T12:00:00Z",
+      "netflix_available": false,
+      "disney_plus_available": false,
+      "prime_video_available": true
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 7,
+    "fields": {
+      "title": "Forrest Gump",
+      "synopsis": "The presidencies of Kennedy and Johnson, the Vietnam War, and other historical events unfold from the perspective of an Alabama man with an IQ of 75.",
+      "genre": "Drama, Romance",
+      "release_date": "1994-07-06",
+      "cast": "Tom Hanks, Robin Wright, Gary Sinise, Sally Field, Mykelti Williamson",
+      "poster_url": "https://image.tmdb.org/t/p/w500/arw2vcBveWOVZr6pxd9XTd1TdQa.jpg",
+      "backdrop_url": "https://image.tmdb.org/t/p/original/3h1JZGDhZ8nzxdgvkxha0qBqi05.jpg",
+      "trailer_url": "https://www.youtube.com/watch?v=bLvqoHBptjg",
+      "created_at": "2024-01-01T12:00:00Z",
+      "updated_at": "2024-01-01T12:00:00Z",
+      "netflix_available": false,
+      "disney_plus_available": false,
+      "prime_video_available": true
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 8,
+    "fields": {
+      "title": "Fight Club",
+      "synopsis": "An insomniac office worker and a devil-may-care soapmaker form an underground fight club that evolves into something much more.",
+      "genre": "Drama, Thriller",
+      "release_date": "1999-10-15",
+      "cast": "Brad Pitt, Edward Norton, Helena Bonham Carter, Meat Loaf, Jared Leto",
+      "poster_url": "https://image.tmdb.org/t/p/w500/pB8BM7pdSp6B6Ih7QZ4DrQ3PmJK.jpg",
+      "backdrop_url": "https://image.tmdb.org/t/p/original/hZkgoQYus5vegHoetLkCJzb17zJ.jpg",
+      "trailer_url": "https://www.youtube.com/watch?v=qtRKdVHc-cE",
+      "created_at": "2024-01-01T12:00:00Z",
+      "updated_at": "2024-01-01T12:00:00Z",
+      "netflix_available": false,
+      "disney_plus_available": false,
+      "prime_video_available": true
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 9,
+    "fields": {
+      "title": "Goodfellas",
+      "synopsis": "The story of Henry Hill and his life in the mob, covering his relationship with his wife Karen Hill and his mob partners Jimmy Conway and Tommy DeVito.",
+      "genre": "Crime, Drama",
+      "release_date": "1990-09-19",
+      "cast": "Robert De Niro, Ray Liotta, Joe Pesci, Lorraine Bracco, Paul Sorvino",
+      "poster_url": "https://image.tmdb.org/t/p/w500/aKuFiU82s5ISJpGZp7YkIr3kCUd.jpg",
+      "backdrop_url": "https://image.tmdb.org/t/p/original/sw7mordbZxgITU877yTpZCud90M.jpg",
+      "trailer_url": "https://www.youtube.com/watch?v=qo5jJpHtI1Y",
+      "created_at": "2024-01-01T12:00:00Z",
+      "updated_at": "2024-01-01T12:00:00Z",
+      "netflix_available": false,
+      "disney_plus_available": false,
+      "prime_video_available": true
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 10,
+    "fields": {
+      "title": "The Lord of the Rings: The Return of the King",
+      "synopsis": "Gandalf and Aragorn lead the World of Men against Sauron's army to draw his gaze from Frodo and Sam as they approach Mount Doom with the One Ring.",
+      "genre": "Adventure, Fantasy, Action",
+      "release_date": "2003-12-17",
+      "cast": "Elijah Wood, Viggo Mortensen, Ian McKellen, Orlando Bloom, Sean Astin, Andy Serkis",
+      "poster_url": "https://image.tmdb.org/t/p/w500/rCzpDGLbOoPwLjy3OAm5NUPOTrC.jpg",
+      "backdrop_url": "https://image.tmdb.org/t/p/original/2u7zbn8EudG6kLlBzUYqP8RyFU4.jpg",
+      "trailer_url": "https://www.youtube.com/watch?v=r7X9W2ybzqk",
+      "created_at": "2024-01-01T12:00:00Z",
+      "updated_at": "2024-01-01T12:00:00Z",
+      "netflix_available": false,
+      "disney_plus_available": false,
+      "prime_video_available": true
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 11,
+    "fields": {
+      "title": "The Godfather",
+      "synopsis": "The aging patriarch of an organized crime dynasty transfers control of his clandestine empire to his reluctant son.",
+      "genre": "Crime, Drama",
+      "release_date": "1972-03-24",
+      "cast": "Marlon Brando, Al Pacino, James Caan, Diane Keaton, Robert Duvall",
+      "poster_url": "https://image.tmdb.org/t/p/w500/3bhkrj58Vtu7enYsRolD1fZdja1.jpg",
+      "backdrop_url": "https://image.tmdb.org/t/p/original/tmU7GeKVybMWFButWEGl2M4GeiP.jpg",
+      "trailer_url": "https://www.youtube.com/watch?v=sY1S34973zA",
+      "created_at": "2024-01-01T12:00:00Z",
+      "updated_at": "2024-01-01T12:00:00Z",
+      "netflix_available": false,
+      "disney_plus_available": false,
+      "prime_video_available": true
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 12,
+    "fields": {
+      "title": "Schindler's List",
+      "synopsis": "In German-occupied Poland during World War II, industrialist Oskar Schindler gradually becomes concerned for his Jewish workforce after witnessing their persecution by the Nazis.",
+      "genre": "Drama, History, War",
+      "release_date": "1993-12-15",
+      "cast": "Liam Neeson, Ralph Fiennes, Ben Kingsley, Caroline Goodall, Embeth Davidtz",
+      "poster_url": "https://image.tmdb.org/t/p/w500/sF1U4EUQS8YHUYjNl3pMGNIQyr0.jpg",
+      "backdrop_url": "https://image.tmdb.org/t/p/original/loRmRzQXZeqG78TqZuyvSlEQfZb.jpg",
+      "trailer_url": "https://www.youtube.com/watch?v=gG22XNhtnoY",
+      "created_at": "2024-01-01T12:00:00Z",
+      "updated_at": "2024-01-01T12:00:00Z",
+      "netflix_available": false,
+      "disney_plus_available": false,
+      "prime_video_available": false
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 13,
+    "fields": {
+      "title": "The Silence of the Lambs",
+      "synopsis": "A young FBI cadet must receive the help of an incarcerated and manipulative cannibal killer to help catch another serial killer.",
+      "genre": "Crime, Drama, Thriller",
+      "release_date": "1991-02-14",
+      "cast": "Jodie Foster, Anthony Hopkins, Scott Glenn, Ted Levine, Anthony Heald",
+      "poster_url": "https://image.tmdb.org/t/p/w500/uS9m8OBk1A8eM9I042bx8XXpqAq.jpg",
+      "backdrop_url": "https://image.tmdb.org/t/p/original/iMQAIbeL9bPgUBzYL5zLEqmnArk.jpg",
+      "trailer_url": "https://www.youtube.com/watch?v=W6Mm8Sbe__o",
+      "created_at": "2024-01-01T12:00:00Z",
+      "updated_at": "2024-01-01T12:00:00Z",
+      "netflix_available": true,
+      "disney_plus_available": false,
+      "prime_video_available": false
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 14,
+    "fields": {
+      "title": "Gladiator",
+      "synopsis": "A former Roman General sets out to exact vengeance against the corrupt emperor who murdered his family and sent him into slavery.",
+      "genre": "Action, Drama, Adventure",
+      "release_date": "2000-05-05",
+      "cast": "Russell Crowe, Joaquin Phoenix, Connie Nielsen, Oliver Reed, Richard Harris",
+      "poster_url": "https://image.tmdb.org/t/p/w500/ty8TGRuvJLPUmAR1H1nRIsgwvim.jpg",
+      "backdrop_url": "https://image.tmdb.org/t/p/original/2oZklIzUbvZXXzIFzv7Hi68d6xf.jpg",
+      "trailer_url": "https://www.youtube.com/watch?v=owK1qxDselE",
+      "created_at": "2024-01-01T12:00:00Z",
+      "updated_at": "2024-01-01T12:00:00Z",
+      "netflix_available": false,
+      "disney_plus_available": false,
+      "prime_video_available": true
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 15,
+    "fields": {
+      "title": "The Prestige",
+      "synopsis": "After a tragic accident, two stage magicians engage in a battle to create the ultimate illusion while sacrificing everything they have to outwit each other.",
+      "genre": "Drama, Mystery, Sci-Fi",
+      "release_date": "2006-10-20",
+      "cast": "Christian Bale, Hugh Jackman, Scarlett Johansson, Michael Caine, Rebecca Hall",
+      "poster_url": "https://image.tmdb.org/t/p/w500/tRNlZbgNCNOpLpbPEz5L8G8A0JN.jpg",
+      "backdrop_url": "https://image.tmdb.org/t/p/original/fYr5lff9ghIK5RxQHx6We6RFlRQ.jpg",
+      "trailer_url": "https://www.youtube.com/watch?v=o4gHCmTQDVI",
+      "created_at": "2024-01-01T12:00:00Z",
+      "updated_at": "2024-01-01T12:00:00Z",
+      "netflix_available": false,
+      "disney_plus_available": false,
+      "prime_video_available": true
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 16,
+    "fields": {
+      "title": "Parasite",
+      "synopsis": "Greed and class discrimination threaten the newly formed symbiotic relationship between the wealthy Park family and the destitute Kim clan.",
+      "genre": "Comedy, Thriller, Drama",
+      "release_date": "2019-05-30",
+      "cast": "Song Kang-ho, Lee Sun-kyun, Cho Yeo-jeong, Choi Woo-shik, Park So-dam",
+      "poster_url": "https://image.tmdb.org/t/p/w500/7IiTTgloJzvGI1TAYymCfbfl3vT.jpg",
+      "backdrop_url": "https://image.tmdb.org/t/p/original/TU9NIjwzjoKPwQHoHshkFcQUCG.jpg",
+      "trailer_url": "https://www.youtube.com/watch?v=5xH0HfJHsaY",
+      "created_at": "2024-01-01T12:00:00Z",
+      "updated_at": "2024-01-01T12:00:00Z",
+      "netflix_available": true,
+      "disney_plus_available": false,
+      "prime_video_available": false
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 17,
+    "fields": {
+      "title": "The Green Mile",
+      "synopsis": "The lives of guards on Death Row are affected by one of their charges: a black man accused of child murder and rape, yet who has a mysterious gift.",
+      "genre": "Drama, Crime, Fantasy",
+      "release_date": "1999-12-10",
+      "cast": "Tom Hanks, Michael Clarke Duncan, David Morse, Bonnie Hunt, James Cromwell",
+      "poster_url": "https://image.tmdb.org/t/p/w500/velWPhVMQeQKcxggNEU8YmIo52R.jpg",
+      "backdrop_url": "https://image.tmdb.org/t/p/original/l6hQWH9eDksNJNiXWYRkWqikOdu.jpg",
+      "trailer_url": "https://www.youtube.com/watch?v=Ki4haFrqSrw",
+      "created_at": "2024-01-01T12:00:00Z",
+      "updated_at": "2024-01-01T12:00:00Z",
+      "netflix_available": false,
+      "disney_plus_available": false,
+      "prime_video_available": true
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 18,
+    "fields": {
+      "title": "Saving Private Ryan",
+      "synopsis": "Following the Normandy Landings, a group of U.S. soldiers go behind enemy lines to retrieve a paratrooper whose brothers have been killed in action.",
+      "genre": "Drama, War, History",
+      "release_date": "1998-07-24",
+      "cast": "Tom Hanks, Matt Damon, Tom Sizemore, Edward Burns, Barry Pepper",
+      "poster_url": "https://image.tmdb.org/t/p/original/l4Ala9HQZmyKVO63cfClY9fECdc.jpg",
+      "backdrop_url": "https://image.tmdb.org/t/p/original/rW2xRFlJRbTnBJlQTSjQmjevIwb.jpg",
+      "trailer_url": "https://www.youtube.com/watch?v=9CiW_DgxCnQ",
+      "created_at": "2024-01-01T12:00:00Z",
+      "updated_at": "2024-01-01T12:00:00Z",
+      "netflix_available": false,
+      "disney_plus_available": false,
+      "prime_video_available": true
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 19,
+    "fields": {
+      "title": "The Departed",
+      "synopsis": "An undercover cop and a mole in the police attempt to identify each other while infiltrating an Irish gang in South Boston.",
+      "genre": "Crime, Drama, Thriller",
+      "release_date": "2006-10-06",
+      "cast": "Leonardo DiCaprio, Matt Damon, Jack Nicholson, Mark Wahlberg, Martin Sheen",
+      "poster_url": "https://image.tmdb.org/t/p/w500/nT97ifVT2J1yMQmeq20Qblg61T.jpg",
+      "backdrop_url": "https://image.tmdb.org/t/p/original/6WRrGYalXXveItfpnipYdayFkQB.jpg",
+      "trailer_url": "https://www.youtube.com/watch?v=SGWvwjZ0eDc",
+      "created_at": "2024-01-01T12:00:00Z",
+      "updated_at": "2024-01-01T12:00:00Z",
+      "netflix_available": false,
+      "disney_plus_available": false,
+      "prime_video_available": true
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 20,
+    "fields": {
+      "title": "Whiplash",
+      "synopsis": "A promising young drummer enrolls at a cut-throat music conservatory where his dreams of greatness are mentored by an instructor who will stop at nothing to realize a student's potential.",
+      "genre": "Drama, Music",
+      "release_date": "2014-10-10",
+      "cast": "Miles Teller, J.K. Simmons, Melissa Benoist, Paul Reiser, Austin Stowell",
+      "poster_url": "https://image.tmdb.org/t/p/w500/7fn624j5lj3xTme2SgiLCeuedmO.jpg",
+      "backdrop_url": "https://image.tmdb.org/t/p/original/fRGxZuo7jJUWQsVg9PREb98Aclp.jpg",
+      "trailer_url": "https://www.youtube.com/watch?v=7d_jQycdQGo",
+      "created_at": "2024-01-01T12:00:00Z",
+      "updated_at": "2024-01-01T12:00:00Z",
+      "netflix_available": true,
+      "disney_plus_available": false,
+      "prime_video_available": false
+    }
+  }
+]
