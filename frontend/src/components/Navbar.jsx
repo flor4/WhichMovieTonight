@@ -64,6 +64,16 @@ function Navbar() {
                         </>
                     )}
                 </div>
+
+                <button
+                onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
+                className="md:hidden flex flex-col space-y-1.5 p-2"
+                aria-label="Toggle menu"
+                >
+                    <span className={`block w-6 h-0.5 bg-white transition-all ${mobileMenuOpen ? 'rotate-45 translate-y-2' : ''}`}> </span>
+                    <span className={`block w-6 h-0.5 bg-white transition-all ${mobileMenuOpen ? 'opacity-0' : ''}`}></span>
+                    <span className={`block w-6 h-0.5 bg-white transition-all ${mobileMenuOpen ? '-rotate-45 -translate-2' : ''}`}></span>
+                </button>
             </div>
         </nav>
     )
