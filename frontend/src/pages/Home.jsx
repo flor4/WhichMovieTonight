@@ -46,5 +46,32 @@ function Home() {
             }
     }
 
+    const handleSearch = (query) => {
+        setSearchQuery(query)
+        setCurrentPage(1)
+    }
+
+    const handleNextPage = () => {
+        if (hasNext) {
+            setCurrentPage(prev => prev + 1)
+            window.scrollTo({ top: 0, behavior: 'smooth '})
+        }
+    }
+
+        const handlePreviousPage = () => {
+        if (hasPrevious) {
+            setCurrentPage(prev => prev - 1)
+            window.scrollTo({ top: 0, behavior: 'smooth '})
+        }
+    }
+
+    if (loading) {
+        return (
+            <div className="min-h-screen flex items-center justify-center">
+                <div className="text-2xl text-red-500">{error}</div>
+            </div>
+        )
+    }
+
 
 }
