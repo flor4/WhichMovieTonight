@@ -13,5 +13,38 @@ function Home() {
     const [hasNext, setHasNext] = useState(false)
     const [hasPrevious, setHasPrevious] = useState(false)
 
+    useEffect(() => {
+        fetchMovies(searchQuery, currentPage)
+    }, [searchQuery, currentPage])
+
+    const fetchMovies = async (query, page = 1) => {
+        try {
+            setLoading(true)
+            setError(null)
+            const data = await movieAPI.getMovies(query, page)
+
+                if (data.results) {
+                    setMovies(data.results)
+                    setHasNext(!!data.next)
+                    setHasPrevious(!!data.previous)
+
+                    if (data.count) {
+                        const pageSize = 100
+                        setTotalPages(Math.ceil(data.count / pageSize))
+                    }
+                } else {
+                    setMovies(data)
+                    setHasNext(false)
+                    setHasPrevious(false)
+                    setTotalPages(1)
+                }
+            } catch (err) {
+                setError('Failed to fetch movies. Please try later.')
+                console.error('Error fetching movies:', err)
+            } finally {
+                setLoading(false)
+            }
+    }
+
 
 }
