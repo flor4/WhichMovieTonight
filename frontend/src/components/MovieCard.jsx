@@ -1,4 +1,4 @@
-import { Link } from "reacr-router-dome";
+import { Link } from "react-router-dome";
 
 {/* component of movie card with poster, title, genre, year and average rating display */}
 function MovieCard({ movie }) {
