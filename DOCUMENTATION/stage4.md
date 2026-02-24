@@ -49,19 +49,19 @@
 
 ### MoSCoW Prioritization
 
-| Priority | Task | Owner | Branch | Dependency |
-|----------|------|-------|--------|------------|
-| **Must Have** | Install tools (Python, Node, PostgreSQL, Git) | Both | — | — |
-| **Must Have** | Initialize repo, create branches (main / dev / backend / frontend) | Both | main | — |
-| **Must Have** | Create Django project + 4 apps (movies, ratings, comments, authentication) | Flora | `feat/flora-django-init` | Tools installed |
-| **Must Have** | Configure settings.py (DB, CORS, JWT, DRF) | Flora | `feat/flora-django-init` | Django project created |
-| **Must Have** | Configure PostgreSQL (database `movie_catalog`) | Flora | `feat/flora-django-init` | PostgreSQL installed |
-| **Must Have** | Implement JWT auth endpoints (register, login, logout, user info) | Flora | `feat/flora-auth-jwt` | settings.py configured |
-| **Must Have** | Initialize React project (Vite + TailwindCSS) | Moussa | `feat/moussa-react-init` | Node installed |
-| **Must Have** | Create Login & Signup pages with form validation | Moussa | `feat/moussa-auth-forms` | React project init |
-| **Must Have** | Implement JWT token storage + Axios interceptors (auto-refresh) | Moussa | `feat/moussa-auth-forms` | Auth endpoints ready |
-| **Should Have** | Create Navbar with auth links (Login / Logout / Profile) | Moussa | `feat/moussa-navbar` | Auth forms done |
-| **Won't Have** | Admin dashboard | — | — | Sprint 3 |
+| Priority | Task | Owner | Dependency |
+|----------|------|-------|------------|
+| **Must Have** | Install tools (Python, Node, PostgreSQL, Git) | Both | — |
+| **Must Have** | Initialize repo, create branches (main / dev / backend / frontend) | Both | — |
+| **Must Have** | Create Django project + 4 apps (movies, ratings, comments, authentication) | Flora | Tools installed |
+| **Must Have** | Configure settings.py (DB, CORS, JWT, DRF) | Flora | Django project created |
+| **Must Have** | Configure PostgreSQL (database `movie_catalog`) | Flora | PostgreSQL installed |
+| **Must Have** | Implement JWT auth endpoints (register, login, logout, user info) | Flora | settings.py configured |
+| **Must Have** | Initialize React project (Vite + TailwindCSS) | Moussa | Node installed |
+| **Must Have** | Create Login & Signup pages with form validation | Moussa | React project init |
+| **Must Have** | Implement JWT token storage + Axios interceptors (auto-refresh) | Moussa | Auth endpoints ready |
+| **Should Have** | Create Navbar with auth links (Login / Logout / Profile) | Moussa | Auth forms done |
+| **Won't Have** | Admin dashboard | — | Sprint 3 |
 
 **Dependencies:**
 - Moussa cannot test real auth flow until Flora's JWT endpoints are deployed locally
@@ -76,18 +76,18 @@
 **Duration:** January 19 → February 2, 2026
 **Goal:** Full movie catalog visible and browsable, movie detail page complete.
 
-| Priority | Task | Owner | Branch | Dependency |
-|----------|------|-------|--------|------------|
-| **Must Have** | Create Movie model (all fields including streaming availability) | Flora | `feat/flora-movie-model` | Sprint 1 done |
-| **Must Have** | Create Movie serializer + CRUD API endpoints | Flora | `feat/flora-movies-api` | Movie model |
-| **Must Have** | Run migrations, seed database with sample movies | Flora | `feat/flora-movie-model` | Movie model |
-| **Must Have** | Movie list page (catalog grid/list with poster, title, genre) | Moussa | `feat/moussa-movie-list` | Movies API ready |
-| **Must Have** | Movie detail page (poster, synopsis, cast, release date, trailer) | Moussa | `feat/moussa-movie-detail` | Movies API ready |
-| **Must Have** | Display streaming availability badges (Netflix / Disney+ / Prime) | Moussa | `feat/moussa-movie-detail` | Movie detail page |
-| **Should Have** | Search bar with filtering by title / genre | Moussa | `feat/moussa-search` | Movie list page |
-| **Should Have** | Pagination for movie list | Flora | `feat/flora-movies-api` | Movies API |
-| **Could Have** | Movie poster lazy loading / skeleton loaders | Moussa | `feat/moussa-movie-list` | Movie list page |
-| **Won't Have** | Comment section | — | — | Sprint 3 |
+| Priority | Task | Owner | Dependency |
+|----------|------|-------|------------|
+| **Must Have** | Create Movie model (all fields including streaming availability) | Flora | Sprint 1 done |
+| **Must Have** | Create Movie serializer + CRUD API endpoints | Flora | Movie model |
+| **Must Have** | Run migrations, seed database with sample movies | Flora | Movie model |
+| **Must Have** | Movie list page (catalog grid/list with poster, title, genre) | Moussa | Movies API ready |
+| **Must Have** | Movie detail page (poster, synopsis, cast, release date, trailer) | Moussa | Movies API ready |
+| **Must Have** | Display streaming availability badges (Netflix / Disney+ / Prime) | Moussa | Movie detail page |
+| **Should Have** | Search bar with filtering by title / genre | Moussa | Movie list page |
+| **Should Have** | Pagination for movie list | Flora | Movies API |
+| **Could Have** | Movie poster lazy loading / skeleton loaders | Moussa | Movie list page |
+| **Won't Have** | Comment section | — | Sprint 3 |
 
 **Dependencies:**
 - Moussa waits for Flora's `/api/movies/` endpoint before building the catalog pages
@@ -102,17 +102,17 @@
 **Duration:** February 3 → February 16, 2026
 **Goal:** Authenticated users can interact with movies (rate, comment). Admin can manage content.
 
-| Priority | Task | Owner | Branch | Dependency |
-|----------|------|-------|--------|------------|
-| **Must Have** | Create Rating model + API (POST/GET ratings, avg score) | Flora | `feat/flora-ratings-api` | Sprint 2 done |
-| **Must Have** | Create Comment model + API (CRUD, owner-only edit/delete) | Flora | `feat/flora-comments-api` | Sprint 2 done |
-| **Must Have** | Star rating component (1–5 stars, submit/update) | Moussa | `feat/moussa-star-rating` | Ratings API ready |
-| **Must Have** | Comment section (list, add, edit, delete own comments) | Moussa | `feat/moussa-comment-section` | Comments API ready |
-| **Must Have** | Admin dashboard page (list movies, add/edit/delete) | Moussa | `feat/moussa-dashboard` | Movie CRUD API |
-| **Should Have** | Fix permissions: only admin can manage movies, users manage own comments | Flora | `fix/flora-permission-bug` | Auth + comments/ratings API |
-| **Should Have** | Display average rating on movie card and detail page | Moussa | `feat/moussa-movie-detail` | Rating avg in API |
-| **Could Have** | Confirm dialog before deleting a comment or movie | Moussa | `feat/moussa-dashboard` | Dashboard |
-| **Won't Have** | Email notifications | — | — | Out of scope |
+| Priority | Task | Owner | Dependency |
+|----------|------|-------|------------|
+| **Must Have** | Create Rating model + API (POST/GET ratings, avg score) | Flora | Sprint 2 done |
+| **Must Have** | Create Comment model + API (CRUD, owner-only edit/delete) | Flora | Sprint 2 done |
+| **Must Have** | Star rating component (1–5 stars, submit/update) | Moussa | Ratings API ready |
+| **Must Have** | Comment section (list, add, edit, delete own comments) | Moussa | Comments API ready |
+| **Must Have** | Admin dashboard page (list movies, add/edit/delete) | Moussa | Movie CRUD API |
+| **Should Have** | Fix permissions: only admin can manage movies, users manage own comments | Flora | Auth + comments/ratings API |
+| **Should Have** | Display average rating on movie card and detail page | Moussa | Rating avg in API |
+| **Could Have** | Confirm dialog before deleting a comment or movie | Moussa | Dashboard |
+| **Won't Have** | Email notifications | — | Out of scope |
 
 **Dependencies:**
 - Star rating component and comment section depend on Flora finishing the respective APIs
@@ -128,17 +128,17 @@
 **Duration:** February 17 → March 1, 2026
 **Goal:** Merge everything into `dev`, fix bugs, clean UI, prepare for release on `main`.
 
-| Priority | Task | Owner | Branch | Dependency |
-|----------|------|-------|--------|------------|
-| **Must Have** | Merge `backend` → `dev`, `frontend` → `dev`, resolve conflicts | Both | dev | Sprint 3 done |
-| **Must Have** | End-to-end integration testing (auth, catalog, ratings, comments, dashboard) | Both | dev | Full merge |
-| **Must Have** | Bug fixes identified during integration | Both | `fix/*` branches | Integration testing |
-| **Must Have** | Create `.env` files + document environment variables | Flora | backend | — |
-| **Should Have** | UI polish: responsive design, error messages, loading states | Moussa | `feat/moussa-ui-polish` | All UI features done |
-| **Should Have** | API error handling (400/401/403/404 responses on frontend) | Moussa | `feat/moussa-ui-polish` | Integration done |
-| **Should Have** | Write README with setup instructions | Both | main | — |
-| **Could Have** | Deploy to staging (Render, Railway, or Vercel) | Both | main | All tests pass |
-| **Won't Have** | CI/CD pipeline | — | — | Out of scope |
+| Priority | Task | Owner | Dependency |
+|----------|------|-------|------------|
+| **Must Have** | Merge `backend` → `dev`, `frontend` → `dev`, resolve conflicts | Both | Sprint 3 done |
+| **Must Have** | End-to-end integration testing (auth, catalog, ratings, comments, dashboard) | Both | Full merge |
+| **Must Have** | Bug fixes identified during integration | Both | Integration testing |
+| **Must Have** | Create `.env` files + document environment variables | Flora | — |
+| **Should Have** | UI polish: responsive design, error messages, loading states | Moussa | All UI features done |
+| **Should Have** | API error handling (400/401/403/404 responses on frontend) | Moussa | Integration done |
+| **Should Have** | Write README with setup instructions | Both | — |
+| **Could Have** | Deploy to staging (Render, Railway, or Vercel) | Both | All tests pass |
+| **Won't Have** | CI/CD pipeline | — | Out of scope |
 
 **Sprint 4 Deliverable:** Stable, tested version merged to `main`.
 
