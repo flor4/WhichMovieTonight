@@ -36,9 +36,10 @@
 
 **Project:** WhichMovieTonight  
 **Duration:** January 12 – March 6, 2026  
-**Team:** Moussa Elisoltanov (Frontend) | Flora Salanson (Backend) 
+**Team:** Moussa Elisoltanov (Frontend) | Flora Salanson (Backend)  
 **Methodology:** Agile/Scrum adapted for 2-person team  
-**Sprint Length:** 2 weeks
+**Sprint Length:** 2 weeks  
+
 ---
 
 ## Sprint 1 — Foundation & Authentication
