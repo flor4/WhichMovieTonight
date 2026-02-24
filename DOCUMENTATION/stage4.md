@@ -11,18 +11,18 @@
    - [Sprint 4 — Integration, Testing & Polish](#sprint-4--integration-testing--polish)
    - [Summary Table](#summary-table)
    - [Key Rules](#key-rules-from-the-guide)
-2. [Execute Development Tasks](#1-execute-development-tasks)
+2. [Execute Development Tasks](#2-execute-development-tasks)
    - [Development](#1-development)
    - [Source Code Management (SCM)](#2-source-code-management-scm)
    - [Testing (QA)](#3-testing-qa)
-3. [Monitor Progress and Adjust](#monitor-progress-and-adjust)
+3. [Monitor Progress and Adjust](#3-monitor-progress-and-adjust)
    - [Communication & Stand-ups](#communication--stand-ups)
    - [Task & Progress Tracking](#task--progress-tracking)
    - [Issue & Bug Handling](#issue--bug-handling)
    - [Metrics & Progress](#metrics--progress)
    - [Reflection](#reflection)
-4. [Conduct Sprint Reviews and Retrospectives](#2-conduct-sprint-reviews-and-retrospectives)
-5. [Integration Testing & Quality Assurance](#4-integration-testing--quality-assurance)
+4. [Conduct Sprint Reviews and Retrospectives](#4-conduct-sprint-reviews-and-retrospectives)
+5. [Integration Testing & Quality Assurance](#5-integration-testing--quality-assurance)
    - [End-to-End Integration Tests](#end-to-end-integration-tests)
    - [Testing Tools](#testing-tools)
    - [Bug Fixes & Critical Issues](#bug-fixes--critical-issues)
@@ -163,7 +163,7 @@
 - Communicate before merging large features into `dev`.
 
 
-# 1. Execute Development Tasks
+# 2. Execute Development Tasks
 
 ## Sprint Implementation 
 
@@ -195,7 +195,7 @@
 - Make sure that bug fixes actually resolve the reported issues.
 
 
-#  Monitor Progress and Adjust
+# 3. Monitor Progress and Adjust
 
 Throughout the WhichMovieTonight project, our team adopted a lightweight, communication-focused approach to monitor progress and address issues.
 
@@ -226,7 +226,7 @@ Throughout the WhichMovieTonight project, our team adopted a lightweight, commun
 - For future, larger-scale or more complex projects, we would recommend adding written traceability or using a project management tool for greater transparency and historical reference.
 
 
-# 2 Conduct Sprint Reviews and Retrospectives
+# 4. Conduct Sprint Reviews and Retrospectives
 
 
 Overall, the sprints went smoothly and allowed us to achieve the planned objectives on time, even if we sometimes had to adjust the sprint depending on our schedule. Collaboration and communication were effective, enabling quick resolution of issues as they arose.
@@ -235,7 +235,7 @@ The main challenge encountered was the need to quickly learn new languages and t
 
 ---
 
-# 4. Integration Testing & Quality Assurance
+# 5. Integration Testing & Quality Assurance
 
 **Purpose:** To ensure all components work together seamlessly and meet quality standards.
 
