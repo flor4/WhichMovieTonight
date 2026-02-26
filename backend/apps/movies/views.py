@@ -3,6 +3,8 @@ from django.db.models import Q
 from .models import Movie
 from .serializers import MovieSerializer, MovieListSerializer
 
+
+# Read-only access for everyone; write access restricted to admin/staff users
 class IsAdminOrReadOnly(permissions.BasePermission):
 
     def has_permission(self, request, view):
@@ -10,6 +12,8 @@ class IsAdminOrReadOnly(permissions.BasePermission):
             return True
         return request.user and request.user.is_staff
 
+
+# ViewSet handling CRUD operations for movies
 class MovieViewSet(viewsets.ModelViewSet):
     queryset = Movie.objects.all()
     serializer_class = MovieSerializer
@@ -18,13 +22,14 @@ class MovieViewSet(viewsets.ModelViewSet):
     search_fields = ['title', 'genre', 'cast', 'synopsis']
 
     def get_serializer_class(self):
+        # Use the lightweight serializer for list actions to reduce payload size
         if self.action == 'list':
             return MovieListSerializer
         return MovieSerializer
     
     def get_queryset(self):
-
         queryset = Movie.objects.all()
+        # Optional full-text search across title, genre, cast and synopsis
         search_query = self.request.query_params.get('search', None)
 
         if search_query:

@@ -1,6 +1,8 @@
 from django.contrib import admin
 from .models import Rating
 
+
+# Custom admin configuration for the Rating model
 @admin.register(Rating)
 class RatingAdmin(admin.ModelAdmin):
     list_display = ('user', 'movie', 'score', 'created_at')

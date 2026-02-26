@@ -12,7 +12,7 @@ Class-based views
     2. Add a URL to urlpatterns:  path('', Home.as_view(), name='home')
 Including another URLconf
     1. Import the include() function: from django.urls import include, path
-    2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
+    2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))  
 """
 from django.contrib import admin
 from django.urls import path, include
@@ -20,14 +20,20 @@ from rest_framework_simplejwt.views import TokenObtainPairView, TokenRefreshView
 from drf_spectacular.views import SpectacularAPIView, SpectacularSwaggerView, SpectacularRedocView
 
 urlpatterns = [
+    # Django admin interface
     path('admin/', admin.site.urls),
+
+    # Application API routes
     path('api/movies/', include('apps.movies.urls')),
     path('api/ratings/', include('apps.ratings.urls')),
     path('api/comments/', include('apps.comments.urls')),
     path('api/auth/', include('apps.authentication.urls')),
+
+    # JWT authentication: obtain and refresh access tokens
     path('api/auth/login/', TokenObtainPairView.as_view(), name='token_obtain_pair'),
     path('api/auth/token/refresh/', TokenRefreshView.as_view(), name='token_refresh'),
-    # Documentation API
+
+    # OpenAPI schema and interactive documentation
     path('api/schema/', SpectacularAPIView.as_view(), name='schema'),
     path('api/docs/', SpectacularSwaggerView.as_view(url_name='schema'), name='swagger-ui'),
     path('api/redoc/', SpectacularRedocView.as_view(url_name='schema'), name='redoc'),

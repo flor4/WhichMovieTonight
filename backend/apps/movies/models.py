@@ -2,17 +2,19 @@ from django.db import models
 from django.db.models import Avg
 
 
+# Represents a movie with its metadata and streaming availability
 class Movie(models.Model):
     title = models.CharField(max_length=255)
     synopsis = models.TextField()
     genre = models.CharField(max_length=100)
     release_date = models.DateField()
+    # Stored as a comma-separated string; use get_cast_list() for a Python list
     cast = models.TextField(help_text="Comma-separated list of cast members")
     poster_url = models.URLField(max_length=500)
     backdrop_url = models.URLField(max_length=500)
     trailer_url = models.URLField(max_length=500, blank=True, null=True)
     
-    # Streaming availability
+    # Streaming availability flags per platform
     netflix_available = models.BooleanField(default=False)
     disney_plus_available = models.BooleanField(default=False)
     prime_video_available = models.BooleanField(default=False)

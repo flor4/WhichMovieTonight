@@ -4,6 +4,7 @@ from .models import Movie
 
 class MovieListSerializer(serializers.ModelSerializer):
     """Simplified serializer for movie list view"""
+    # Computed fields derived from model methods
     average_rating = serializers.SerializerMethodField()
     rating_count = serializers.SerializerMethodField()
     
@@ -24,8 +25,10 @@ class MovieListSerializer(serializers.ModelSerializer):
 
 class MovieSerializer(serializers.ModelSerializer):
     """Complete serializer for movie detail view"""
+    # Computed fields derived from model methods
     average_rating = serializers.SerializerMethodField()
     rating_count = serializers.SerializerMethodField()
+    # Exposes cast as a Python list instead of a raw comma-separated string
     cast_list = serializers.SerializerMethodField()
     
     class Meta:

@@ -2,6 +2,7 @@ from django.urls import path, include
 from rest_framework.routers import DefaultRouter
 from .views import MovieViewSet
 
+# Register MovieViewSet with the router to auto-generate standard CRUD routes
 router = DefaultRouter()
 router.register(r'', MovieViewSet, basename='movie')
 

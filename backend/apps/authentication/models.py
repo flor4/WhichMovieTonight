@@ -1,3 +1,3 @@
 from django.db import models
 
-# Create your models here.
+# No custom user model — the built-in Django User model is used throughout the app.

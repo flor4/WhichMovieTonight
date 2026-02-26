@@ -5,6 +5,8 @@ from rest_framework_simplejwt.tokens import RefreshToken
 from django.contrib.auth.models import User
 from .serializers import RegisterSerializer, UserSerializer
 
+
+# Handles new user registration and returns JWT tokens on success
 class RegisterView(generics.CreateAPIView):
     queryset = User.objects.all()
     permission_classes = (permissions.AllowAny,)
@@ -15,6 +17,7 @@ class RegisterView(generics.CreateAPIView):
         serializer.is_valid(raise_exception=True)
         user = serializer.save()
 
+        # Generate JWT tokens for the newly created user
         refresh = RefreshToken.for_user(user)
 
         return Response({
@@ -23,6 +26,8 @@ class RegisterView(generics.CreateAPIView):
             'access': str(refresh.access_token)
         }, status=status.HTTP_201_CREATED)
 
+
+# Returns profile data of the currently authenticated user
 class UserInfoView(APIView):
     permission_classes = (permissions.IsAuthenticated,)
 
@@ -30,6 +35,8 @@ class UserInfoView(APIView):
         serializer = UserSerializer(request.user)
         return Response(serializer.data)
 
+
+# Blacklists the provided refresh token to invalidate the session
 class LogoutView(APIView):
     permission_classes = (permissions.IsAuthenticated,)
 

@@ -2,6 +2,7 @@ from django.contrib import admin
 from .models import Movie
 
 
+# Custom admin configuration for the Movie model
 @admin.register(Movie)
 class MovieAdmin(admin.ModelAdmin):
     list_display = ('title', 'genre', 'release_date', 'streaming_platforms', 'created_at')
@@ -32,7 +33,7 @@ class MovieAdmin(admin.ModelAdmin):
     )
 
     def streaming_platforms(self, obj):
-        """Affiche les plateformes de streaming disponibles"""
+        """Display available streaming platforms as a formatted string"""
         platforms = []
         if obj.netflix_available:
             platforms.append('\U0001F534 Netflix')
