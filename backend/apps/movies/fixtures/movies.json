@@ -348,9 +348,9 @@
       "genre": "Action, Crime",
       "release_date": "2003-10-10",
       "cast": "Uma Thurman, Lucy Liu, Vivica A. Fox",
-      "poster_url": "https://image.tmdb.org/t/p/w500/v7TaX8kXMXs5yFFGR41guUDNcnB.jpg",
-      "backdrop_url": "https://image.tmdb.org/t/p/original/5Y5Y0k7f3w8R6YH8Q4k2Fv7n.jpg",
-      "trailer_url": "https://www.youtube.com/watch?v=7kSuas6mRpk",
+      "poster_url": "https://media.themoviedb.org/t/p/w440_and_h660_face/hM2fUVWViGIJT0Twz2BTXOBEYLM.jpg",
+      "backdrop_url": "https://media.themoviedb.org/t/p/w1000_and_h563_face/qSPpjY5OeLACZ27CZGhcn7Yr6DG.jpg",
+      "trailer_url": "https://www.youtube.com/watch?v=2qYb8H9IrvY",
       "netflix_available": false,
       "disney_plus_available": false,
       "prime_video_available": true
@@ -365,9 +365,9 @@
       "genre": "Crime, Thriller",
       "release_date": "1996-04-05",
       "cast": "Frances McDormand, William H. Macy, Steve Buscemi",
-      "poster_url": "https://image.tmdb.org/t/p/w500/rt7cpEr1uP6RTZykBFhBTcRaKvG.jpg",
-      "backdrop_url": "https://image.tmdb.org/t/p/original/6rFJ0b7LrF8aL3q.jpg",
-      "trailer_url": "https://www.youtube.com/watch?v=h2tY82z3xXU",
+      "poster_url": "https://www.themoviedb.org/t/p/w1280/pkuNNMtJ40h3l0eQIMM8CYHXJlQ.jpg",
+      "backdrop_url": "https://media.themoviedb.org/t/p/w1066_and_h600_face/747dgDfL5d8esobk7h4odaOFhUq.jpg",
+      "trailer_url": "https://www.youtube.com/watch?v=qZGA2insxDs",
       "netflix_available": true,
       "disney_plus_available": false,
       "prime_video_available": true
@@ -382,12 +382,12 @@
       "genre": "Crime, Drama, Thriller",
       "release_date": "2007-11-09",
       "cast": "Javier Bardem, Josh Brolin, Tommy Lee Jones",
-      "poster_url": "https://image.tmdb.org/t/p/w500/6d5XOczc226jECq0LIX0siKtgHR.jpg",
-      "backdrop_url": "https://image.tmdb.org/t/p/original/jLh0gW9y2y6Q.jpg",
-      "trailer_url": "https://www.youtube.com/watch?v=38A__WT3-o0",
-      "netflix_available": true,
+      "poster_url": "https://www.themoviedb.org/t/p/w1280/hxVT4KTmjVxVbsnvImm6WWgLMzg.jpg",
+      "backdrop_url": "https://media.themoviedb.org/t/p/w1066_and_h600_face/nsHXexZQvUJv8WXvmQHohn5Hv1l.jpg",
+      "trailer_url": "https://www.youtube.com/watch?v=HUWbmT6m7-g",
+      "netflix_available": false,
       "disney_plus_available": false,
-      "prime_video_available": false
+      "prime_video_available": true
     }
   },
   {
@@ -399,9 +399,9 @@
       "genre": "Horror, Thriller",
       "release_date": "1960-06-16",
       "cast": "Anthony Perkins, Janet Leigh",
-      "poster_url": "https://image.tmdb.org/t/p/w500/5j9VFEV2D8V0r0k.jpg",
-      "backdrop_url": "https://image.tmdb.org/t/p/original/9c5QH.jpg",
-      "trailer_url": "https://www.youtube.com/watch?v=NG3-GlvKPcg",
+      "poster_url": "https://www.themoviedb.org/t/p/w1280/lzF8b44dAvXFagQnB1UZa2AF87q.jpg",
+      "backdrop_url": "https://media.themoviedb.org/t/p/w1066_and_h600_face/mufF1aYvwdpKerhq5R1YrVcbJLY.jpg",
+      "trailer_url": "https://www.youtube.com/watch?v=BSuMxSyyKlU",
       "netflix_available": false,
       "disney_plus_available": false,
       "prime_video_available": true
@@ -416,12 +416,12 @@
       "genre": "Mystery, Romance, Thriller",
       "release_date": "1958-05-09",
       "cast": "James Stewart, Kim Novak",
-      "poster_url": "https://image.tmdb.org/t/p/w500/15uOEfqBNTVtDUT7hGBVCka0rZz.jpg",
-      "backdrop_url": "https://image.tmdb.org/t/p/original/3J0M.jpg",
-      "trailer_url": "https://www.youtube.com/watch?v=Z5jvQwwHQNY",
+      "poster_url": "https://www.themoviedb.org/t/p/w1280/pk12ikPchJXzOpiqhdmGcxSuscQ.jpg",
+      "backdrop_url": "https://media.themoviedb.org/t/p/w1066_and_h600_face/rtVwkTqllcmyY4TVOycgVBHppWf.jpg",
+      "trailer_url": "https://www.youtube.com/watch?v=epEFSBAvRLA",
       "netflix_available": false,
-      "disney_plus_available": true,
-      "prime_video_available": false
+      "disney_plus_available": false,
+      "prime_video_available": true
     }
   },
   {
@@ -433,12 +433,12 @@
       "genre": "Thriller, Adventure",
       "release_date": "1959-07-08",
       "cast": "Cary Grant, Eva Marie Saint",
-      "poster_url": "https://image.tmdb.org/t/p/w500/lxM6kqilAdpdhqUl2BIJ.jpg",
-      "backdrop_url": "https://image.tmdb.org/t/p/original/2O0b.jpg",
-      "trailer_url": "https://www.youtube.com/watch?v=9JgM8xNnC5Q",
+      "poster_url": "https://www.themoviedb.org/t/p/w1280/fxwVitOtjxw2M2lz9SRmAgJNQMz.jpg",
+      "backdrop_url": "https://media.themoviedb.org/t/p/w1066_and_h600_face/OR8oloCZ3klJtB7Y0i8pSqWw5a.jpg",
+      "trailer_url": "https://www.youtube.com/watch?v=BC9uXuXf3o8",
       "netflix_available": false,
-      "disney_plus_available": true,
-      "prime_video_available": false
+      "disney_plus_available": false,
+      "prime_video_available": true
     }
   },
   {
@@ -450,9 +450,9 @@
       "genre": "Comedy, Romance",
       "release_date": "1959-03-19",
       "cast": "Marilyn Monroe, Tony Curtis, Jack Lemmon",
-      "poster_url": "https://image.tmdb.org/t/p/w500/hVIKyTK13AvOGvR.jpg",
-      "backdrop_url": "https://image.tmdb.org/t/p/original/some_like_it_hot_bg.jpg",
-      "trailer_url": "https://www.youtube.com/watch?v=97TYs2YXbJw",
+      "poster_url": "https://www.themoviedb.org/t/p/w1280/vUBgUWMs6TuCuUScfB98kPBYIbG.jpg",
+      "backdrop_url": "https://media.themoviedb.org/t/p/w1066_and_h600_face/5zTwAcnI3zCJ0mucPPnoBtkSWEV.jpg",
+      "trailer_url": "https://www.youtube.com/watch?v=WdtOQ2AAIQQ",
       "netflix_available": false,
       "disney_plus_available": false,
       "prime_video_available": true
@@ -467,9 +467,9 @@
       "genre": "Comedy, Romance",
       "release_date": "1955-06-03",
       "cast": "Marilyn Monroe, Tom Ewell",
-      "poster_url": "https://image.tmdb.org/t/p/w500/7yearitch.jpg",
-      "backdrop_url": "https://image.tmdb.org/t/p/original/7yearitch_bg.jpg",
-      "trailer_url": "https://www.youtube.com/watch?v=3v9bp6pWn2I",
+      "poster_url": "https://www.themoviedb.org/t/p/w1280/gXEiF1KfEv2F2A4Lkcc9WVDBSqj.jpg",
+      "backdrop_url": "https://media.themoviedb.org/t/p/w1066_and_h600_face/yjlg8Gq3TAWlFSUxh7Icey8uM4P.jpg",
+      "trailer_url": "https://www.youtube.com/watch?v=3yGiJvQUmss",
       "netflix_available": false,
       "disney_plus_available": false,
       "prime_video_available": true
@@ -485,11 +485,11 @@
       "release_date": "2019-07-26",
       "cast": "Leonardo DiCaprio, Brad Pitt, Margot Robbie",
       "poster_url": "https://image.tmdb.org/t/p/w500/8j58iEBw9pOXFD2L0nt0ZXeHviB.jpg",
-      "backdrop_url": "https://image.tmdb.org/t/p/original/qJeU7KM4nT2C.jpg",
-      "trailer_url": "https://www.youtube.com/watch?v=ELeMaP8EPAA",
-      "netflix_available": true,
+      "backdrop_url": "https://media.themoviedb.org/t/p/w1066_and_h600_face/kKTPv9LKKs5L3oO1y5FNObxAPWI.jpg",
+      "trailer_url": "https://www.youtube.com/watch?v=TFfxV8sKhb0",
+      "netflix_available": false,
       "disney_plus_available": false,
-      "prime_video_available": false
+      "prime_video_available": true
     }
   },
   {
@@ -501,11 +501,11 @@
       "genre": "Crime, Thriller",
       "release_date": "1992-10-23",
       "cast": "Harvey Keitel, Tim Roth, Michael Madsen",
-      "poster_url": "https://image.tmdb.org/t/p/w500/xi8Iu6qyTfy.jpg",
-      "backdrop_url": "https://image.tmdb.org/t/p/original/reservoir_dogs_bg.jpg",
-      "trailer_url": "https://www.youtube.com/watch?v=vayksn4Y93A",
+      "poster_url": "https://www.themoviedb.org/t/p/w1280/p61wwD0jWfgbhg9Ja9uoDZdS8YE.jpg",
+      "backdrop_url": "https://media.themoviedb.org/t/p/w1066_and_h600_face/jwt159hXWA9Q5xpBo8hWb3zwLi7.jpg",
+      "trailer_url": "https://www.youtube.com/watch?v=XHUIJoe51Tg",
       "netflix_available": false,
-      "disney_plus_available": false,
+      "disney_plus_available": true,
       "prime_video_available": true
     }
   },
@@ -518,8 +518,8 @@
       "genre": "Comedy, Crime",
       "release_date": "1998-03-06",
       "cast": "Jeff Bridges, John Goodman, Julianne Moore",
-      "poster_url": "https://image.tmdb.org/t/p/w500/5DpmtMBXXNDujIuSlKW3WLKuqEd.jpg",
-      "backdrop_url": "https://image.tmdb.org/t/p/original/lebowski_bg.jpg",
+      "poster_url": "https://www.themoviedb.org/t/p/w1280/6YrHMQwjaeLIa4kAMxgOGI76ao4.jpg",
+      "backdrop_url": "https://media.themoviedb.org/t/p/w1066_and_h600_face/hXsy4XCCHrUk81XoRhcooyWejao.jpg",
       "trailer_url": "https://www.youtube.com/watch?v=cd-go0oBF4Y",
       "netflix_available": true,
       "disney_plus_available": false,
@@ -535,8 +535,8 @@
       "genre": "Comedy, Crime",
       "release_date": "2008-09-12",
       "cast": "George Clooney, Frances McDormand, Brad Pitt",
-      "poster_url": "https://image.tmdb.org/t/p/w500/5E3n.jpg",
-      "backdrop_url": "https://image.tmdb.org/t/p/original/burn_after_reading_bg.jpg",
+      "poster_url": "https://www.themoviedb.org/t/p/w1280/AuHddPinWRWM3ZBfGMBm09nuKO1.jpg",
+      "backdrop_url": "https://media.themoviedb.org/t/p/w1000_and_h563_face/822jGg3YQEZ38hFV1JVfUjmj4mz.jpg",
       "trailer_url": "https://www.youtube.com/watch?v=SVCHSiRWjJM",
       "netflix_available": true,
       "disney_plus_available": false,
@@ -552,9 +552,9 @@
       "genre": "Comedy, Crime",
       "release_date": "1987-03-13",
       "cast": "Nicolas Cage, Holly Hunter",
-      "poster_url": "https://image.tmdb.org/t/p/w500/ra_arizona.jpg",
-      "backdrop_url": "https://image.tmdb.org/t/p/original/raising_arizona_bg.jpg",
-      "trailer_url": "https://www.youtube.com/watch?v=OjWu8i6eMZo",
+      "poster_url": "https://www.themoviedb.org/t/p/w1280/kfbbJGZs5qiaK5cyuQkFDNKeUWg.jpg",
+      "backdrop_url": "https://media.themoviedb.org/t/p/w1066_and_h600_face/oSFshBf9Wrv5UcmZYAmy28BwSSh.jpg",
+      "trailer_url": "https://www.youtube.com/watch?v=OjWu8i6eMZo&t=27s",
       "netflix_available": false,
       "disney_plus_available": false,
       "prime_video_available": true
@@ -569,12 +569,12 @@
       "genre": "Horror, Thriller",
       "release_date": "1963-03-28",
       "cast": "Tippi Hedren, Rod Taylor",
-      "poster_url": "https://image.tmdb.org/t/p/w500/the_birds.jpg",
-      "backdrop_url": "https://image.tmdb.org/t/p/original/the_birds_bg.jpg",
-      "trailer_url": "https://www.youtube.com/watch?v=0fJh2gIBOto",
+      "poster_url": "https://www.themoviedb.org/t/p/w1280/pIc5nX1neiJ38R7b4e8PKqvxbkD.jpg",
+      "backdrop_url": "https://media.themoviedb.org/t/p/w1066_and_h600_face/il5zDHC5sGe3ZHLhVi3tNFZ9Tt5.jpg",
+      "trailer_url": "https://www.youtube.com/watch?v=likhs5A8YhE",
       "netflix_available": false,
-      "disney_plus_available": true,
-      "prime_video_available": false
+      "disney_plus_available": false,
+      "prime_video_available": true
     }
   },
   {
@@ -586,11 +586,11 @@
       "genre": "Mystery, Thriller",
       "release_date": "1954-08-01",
       "cast": "James Stewart, Grace Kelly",
-      "poster_url": "https://image.tmdb.org/t/p/w500/rear_window.jpg",
-      "backdrop_url": "https://image.tmdb.org/t/p/original/rear_window_bg.jpg",
-      "trailer_url": "https://www.youtube.com/watch?v=6kCcZCMYw38",
+      "poster_url": "https://www.themoviedb.org/t/p/w1280/xiPX9jCpPXQIqIrbbuHfsL4qt9c.jpg",
+      "backdrop_url": "https://media.themoviedb.org/t/p/w1066_and_h600_face/zGs5tZOlvc9cprdcU6kDOVNpujf.jpg",
+      "trailer_url": "https://www.youtube.com/watch?v=C28s0gXXyRA",
       "netflix_available": false,
-      "disney_plus_available": true,
+      "disney_plus_available": false,
       "prime_video_available": true
     }
   },
@@ -603,12 +603,12 @@
       "genre": "Crime, Thriller",
       "release_date": "1951-06-30",
       "cast": "Farley Granger, Robert Walker",
-      "poster_url": "https://image.tmdb.org/t/p/w500/strangers_train.jpg",
-      "backdrop_url": "https://image.tmdb.org/t/p/original/strangers_train_bg.jpg",
-      "trailer_url": "https://www.youtube.com/watch?v=6K6D.jpg",
+      "poster_url": "https://www.themoviedb.org/t/p/w1280/6oSfav2yXyP009cBKoNEH0UYF10.jpg",
+      "backdrop_url": "https://media.themoviedb.org/t/p/w1066_and_h600_face/dN6f8Bx2ahHEikOXrO7wOnW1hFR.jpg",
+      "trailer_url": "https://www.youtube.com/watch?v=f_36zdk-KkQ",
       "netflix_available": false,
-      "disney_plus_available": true,
-      "prime_video_available": false
+      "disney_plus_available": false,
+      "prime_video_available": true
     }
   },
   {
@@ -620,12 +620,12 @@
       "genre": "Comedy, Musical, Romance",
       "release_date": "1953-07-14",
       "cast": "Marilyn Monroe, Jane Russell",
-      "poster_url": "https://image.tmdb.org/t/p/w500/gentlemen_blondes.jpg",
-      "backdrop_url": "https://image.tmdb.org/t/p/original/gentlemen_blondes_bg.jpg",
-      "trailer_url": "https://www.youtube.com/watch?v=U8r3.jpg",
+      "poster_url": "https://www.themoviedb.org/t/p/w1280/jOE2FYuzu7x2tGDVZeIq9dK0ea5.jpg",
+      "backdrop_url": "https://media.themoviedb.org/t/p/w1066_and_h600_face/2clBxxclZJ4OK1xzhmCCXHEfy3r.jpg",
+      "trailer_url": "https://www.youtube.com/watch?v=14lt4ahC-zU",
       "netflix_available": false,
-      "disney_plus_available": false,
-      "prime_video_available": true
+      "disney_plus_available": true,
+      "prime_video_available": false
     }
   },
   {
@@ -637,12 +637,12 @@
       "genre": "Thriller, Film-Noir",
       "release_date": "1953-01-21",
       "cast": "Marilyn Monroe, Joseph Cotten",
-      "poster_url": "https://image.tmdb.org/t/p/w500/niagara.jpg",
-      "backdrop_url": "https://image.tmdb.org/t/p/original/niagara_bg.jpg",
-      "trailer_url": "https://www.youtube.com/watch?v=niagara_trailer",
+      "poster_url": "https://www.themoviedb.org/t/p/w1280/d54znOjaA5pJKTEKOs8gGXZbE9r.jpg",
+      "backdrop_url": "https://media.themoviedb.org/t/p/w1000_and_h563_face/pHqBQanr9e36y153SFCHVv53pSd.jpg",
+      "trailer_url": "https://www.youtube.com/watch?v=NHUOyB1TB3c&t=7s",
       "netflix_available": false,
-      "disney_plus_available": false,
-      "prime_video_available": true
+      "disney_plus_available": true,
+      "prime_video_available": false
     }
   },
   {
@@ -654,9 +654,9 @@
       "genre": "Crime, Drama, Thriller",
       "release_date": "1997-12-25",
       "cast": "Pam Grier, Samuel L. Jackson, Robert Forster",
-      "poster_url": "https://image.tmdb.org/t/p/w500/jackie_brown.jpg",
-      "backdrop_url": "https://image.tmdb.org/t/p/original/jackie_brown_bg.jpg",
-      "trailer_url": "https://www.youtube.com/watch?v=jnf4r.jpg",
+      "poster_url": "https://www.themoviedb.org/t/p/w1280/9kXL2QGonp0D2ipqoKxEpTK8XRS.jpg",
+      "backdrop_url": "https://media.themoviedb.org/t/p/w1066_and_h600_face/gvaeY5kz3wHrMU6xLdnybziwYXw.jpg",
+      "trailer_url": "https://www.youtube.com/watch?v=x5SplMMYmVM",
       "netflix_available": true,
       "disney_plus_available": false,
       "prime_video_available": false
