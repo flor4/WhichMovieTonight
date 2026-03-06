@@ -108,18 +108,19 @@
 | **Must Have** | Create Comment model + API (CRUD, owner-only edit/delete) | Flora | Sprint 2 done |
 | **Must Have** | Star rating component (1–5 stars, submit/update) | Moussa | Ratings API ready |
 | **Must Have** | Comment section (list, add, edit, delete own comments) | Moussa | Comments API ready |
-| **Must Have** | Admin dashboard page (list movies, add/edit/delete) | Moussa | Movie CRUD API |
+| **Must Have** | Configure Django Admin dashboard for movie management | Flora | Movie CRUD API |
 | **Should Have** | Fix permissions: only admin can manage movies, users manage own comments | Flora | Auth + comments/ratings API |
 | **Should Have** | Display average rating on movie card and detail page | Moussa | Rating avg in API |
-| **Could Have** | Confirm dialog before deleting a comment or movie | Moussa | Dashboard |
+| **Could Have** | Confirm dialog before deleting a comment | Moussa | Comment section |
+| **Won't Have** | Frontend admin dashboard | — | Django Admin used instead |
 | **Won't Have** | Email notifications | — | Out of scope |
 
 **Dependencies:**
 - Star rating component and comment section depend on Flora finishing the respective APIs
-- Admin dashboard depends on Movie CRUD being fully functional
-- Permission fix must be merged before the dashboard goes live
+- Django Admin dashboard configuration depends on Movie model being finalized
+- Permission fix must be merged before admin access goes live
 
-**Sprint 3 Deliverable:** Full interactive app — users rate and comment, admins manage movies from the dashboard.
+**Sprint 3 Deliverable:** Full interactive app — users rate and comment, admins manage movies from Django Admin dashboard.
 
 ---
 
@@ -150,7 +151,7 @@
 |--------|-------|-------|-------|--------|-----------|
 | Sprint 1 | Jan 12–18 | Setup + Auth | Django init, JWT API | React init, Auth forms, Navbar | Auth flow working end-to-end |
 | Sprint 2 | Jan 19–Feb 2 | Movie Catalog | Movie model + API | Catalog, Detail, Search | Users can browse movies |
-| Sprint 3 | Feb 3–16 | Interactions + Admin | Ratings + Comments API, Permissions | Star rating, Comments UI, Dashboard | Full interactive features |
+| Sprint 3 | Feb 3–16 | Interactions + Admin | Ratings + Comments API, Permissions, Django Admin | Star rating, Comments UI | Full interactive features |
 | Sprint 4 | Feb 17–Mar 1 | Integration + Polish | Env config, Bug fixes, README | UI polish, Error handling | v1.0.0 released on `main` |
 
 ---
@@ -192,7 +193,8 @@
 ### 3. Testing (QA)
 
 - Test every new feature thoroughly.
-- Use tools like a **swagger (DRF Spectacular)** to test API endpoints.
+- **Backend:** Use tools like **Swagger (DRF Spectacular)** to test API endpoints.
+- **Frontend:** Manual testing of all UI components, user flows, and edge cases in the browser. Verify responsive design, form validation, and error handling.
 - Make sure that bug fixes actually resolve the reported issues.
 
 
@@ -252,7 +254,7 @@ Integration tests were conducted to verify that the React frontend correctly com
 | View movie detail | `GET /api/movies/{id}/` | Full details, cast, streaming badges displayed |
 | Submit a rating | `POST /api/ratings/` | Star rating saved, average updated on detail page |
 | Post / edit / delete a comment | `POST /api/comments/` `PATCH /api/comments/{id}/` `DELETE /api/comments/{id}/` | Owner-only edit/delete enforced |
-| Admin movie management | `POST/PUT/DELETE /api/movies/` | Admin-only access verified |
+| Admin movie management | Django Admin interface at `/admin/` | Admin-only access verified, full CRUD operations |
 
 ## Testing Tools
 
