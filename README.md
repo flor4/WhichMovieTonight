@@ -440,6 +440,10 @@ By the end of the project, **WhichMovieTonight** will provide a smooth and effic
 
 ---
 
+Here is a link to the landing page : https://melisoltanov.github.io/LandingPage/
+
+---
+
 🎬 *WhichMovieTonight — Spend less time searching, more time watching.*
 
 Made with ❤️ and fun by an awesome team Moussa and Flora, for Holberton School portfolio project😎🍿
